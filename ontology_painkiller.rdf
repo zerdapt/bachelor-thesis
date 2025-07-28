@@ -1,0 +1,414 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/"
+     xml:base="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller">
+        <terms:creator>Zerda Polat</terms:creator>
+        <terms:description>An ontology to model common painkillers, their side effects, and adverse event reports based on the openFDA data.</terms:description>
+        <terms:license>https://creativecommons.org/licenses/by/4.0/</terms:license>
+        <terms:title xml:lang="en">Painkiller Side Effect Ontology</terms:title>
+        <rdfs:label>Bachelor Thesis Project</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/drugHasRegulatoryStatus -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/drugHasRegulatoryStatus">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/isStatusOfDrug"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/Drug"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/RegulatoryStatus"/>
+        <rdfs:comment>Links a drug to its regulatory status in a specific jurisdiction (e.g., the US).</rdfs:comment>
+        <rdfs:label>drugHasRegulatoryStatus</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/drugIsSubjectOfReport -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/drugIsSubjectOfReport">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/reportConcernsDrug"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/Drug"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/AdverseEventReport"/>
+        <rdfs:comment>Links a drug to an adverse event report that is about it.</rdfs:comment>
+        <rdfs:label>drugIsSubjectOfReport</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/isLocationOfReport -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/isLocationOfReport">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/reportOccurredIn"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/Region"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/AdverseEventReport"/>
+        <rdfs:comment>The inverse of reportOccurredIn.</rdfs:comment>
+        <rdfs:label>isLocationOfReport</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/isPatientInReport -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/isPatientInReport">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/reportInvolvesPatient"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/Patient"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/AdverseEventReport"/>
+        <rdfs:comment>The inverse of reportInvolvesPatient.</rdfs:comment>
+        <rdfs:label>isPatientInReport</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/isStatusOfDrug -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/isStatusOfDrug">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/RegulatoryStatus"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/Drug"/>
+        <rdfs:comment>The inverse of drugHasRegulatoryStatus.</rdfs:comment>
+        <rdfs:label>isStatusOfDrug</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/patientExperiencedSideEffect -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/patientExperiencedSideEffect">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/wasExperiencedByPatient"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/Patient"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/SideEffect"/>
+        <rdfs:comment>Links a patient to a side effect they have experienced.</rdfs:comment>
+        <rdfs:label>patientExperiencedSideEffect</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/patientUsedDrug -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/patientUsedDrug">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/wasUsedByPatient"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/Patient"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/Drug"/>
+        <rdfs:comment>A property to link a patient to a drug they have reportedly used.</rdfs:comment>
+        <rdfs:label>patientUsedDrug</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/reportConcernsDrug -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/reportConcernsDrug">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/AdverseEventReport"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/Drug"/>
+        <rdfs:comment>The inverse of drugIsSubjectOfReport.</rdfs:comment>
+        <rdfs:label>reportConcernsDrug</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/reportInvolvesPatient -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/reportInvolvesPatient">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/AdverseEventReport"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/Patient"/>
+        <rdfs:comment>Links a specific adverse event report to the patient it involves.</rdfs:comment>
+        <rdfs:label>reportInvolvesPatient</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/reportOccurredIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/reportOccurredIn">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/AdverseEventReport"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/Region"/>
+        <rdfs:comment>Specifies the geographical region where the adverse event occurred.</rdfs:comment>
+        <rdfs:label>reportOccurredIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/wasExperiencedByPatient -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/wasExperiencedByPatient">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/SideEffect"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/Patient"/>
+        <rdfs:comment>The inverse of patientExperiencedSideEffect.</rdfs:comment>
+        <rdfs:label>wasExperiencedByPatient</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/wasUsedByPatient -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/wasUsedByPatient">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/Drug"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/Patient"/>
+        <rdfs:comment>The inverse of patientUsedDrug. Links a drug to a patient who has reportedly used it.</rdfs:comment>
+        <rdfs:label>wasUsedByPatient</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/countryCode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/countryCode">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/Region"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>The country code representing the region where the event occurred.</rdfs:comment>
+        <rdfs:label>countryCode</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/fatalReportCount -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/fatalReportCount">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/Drug"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The number of reports for this drug that resulted in a fatality (death).</rdfs:comment>
+        <rdfs:label>fatalReportCount</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/isFatal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/isFatal">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/AdverseEventReport"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment>A boolean flag indicating that the report&apos;s outcome was fatal.</rdfs:comment>
+        <rdfs:label>isFatal</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/patientAge -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/patientAge">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/Patient"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The age of the patient at the time the adverse event occurred.</rdfs:comment>
+        <rdfs:label>patientAge</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/patientSex -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/patientSex">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/Patient"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>The sex of the patient (gender).</rdfs:comment>
+        <rdfs:label>patientSex</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/reportDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/reportDate">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/AdverseEventReport"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <rdfs:comment>The date the report was received by the regulatory authority.</rdfs:comment>
+        <rdfs:label>reportDate</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/reportId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/reportId">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/AdverseEventReport"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>The unique identifier for the adverse event report.</rdfs:comment>
+        <rdfs:label>reportId</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/seriousReportCount -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/seriousReportCount">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/Drug"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The number of reports for this drug that were classified as serious.</rdfs:comment>
+        <rdfs:label>seriousReportCount</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/totalReportCount -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/totalReportCount">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/Drug"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The total number of adverse event reports submitted for this drug.</rdfs:comment>
+        <rdfs:label>totalReportCount</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/AdverseEventReport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/AdverseEventReport">
+        <rdfs:comment>Represents a single, individual adverse event report.</rdfs:comment>
+        <rdfs:label>adverseEventReport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/Drug -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/Drug">
+        <rdfs:comment>Represents a painkiller medication.</rdfs:comment>
+        <rdfs:label>drug</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/Patient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/Patient">
+        <rdfs:comment>Represents the person who used the drug and is the subject of a report.</rdfs:comment>
+        <rdfs:label>patient</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/Region -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/Region">
+        <rdfs:comment>Represents a geographical location, such as a country.</rdfs:comment>
+        <rdfs:label>region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/RegulatoryStatus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/RegulatoryStatus">
+        <rdfs:comment>Represents the marketing status of a drug (e.g., Prescription, Over-the-Counter).</rdfs:comment>
+        <rdfs:label>regulatoryStatus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/SideEffect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/SideEffect">
+        <rdfs:comment>Represents an adverse reaction to a drug.</rdfs:comment>
+        <rdfs:label>sideEffect</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
