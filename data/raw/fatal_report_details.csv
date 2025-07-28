@@ -1,0 +1,253 @@
+painkiller_id;report_id;is_fatal;report_date;side_effect;patient_age;patient_sex;report_country_code
+PARACETAMOL;10004703;true;20140417;Death;41;Male;KE
+PARACETAMOL;10005839;true;20140313;Leukoencephalopathy;69;Female;GB
+PARACETAMOL;10005839;true;20140313;Peroneal nerve palsy;69;Female;GB
+PARACETAMOL;10005839;true;20140313;Mobility decreased;69;Female;GB
+PARACETAMOL;10005839;true;20140313;Sensory loss;69;Female;GB
+PARACETAMOL;10005839;true;20140313;Grand mal convulsion;69;Female;GB
+PARACETAMOL;10005839;true;20140313;Muscular weakness;69;Female;GB
+PARACETAMOL;10005867;true;20140313;Drug-induced liver injury;59;Male;FR
+PARACETAMOL;10005882;true;20140313;Intentional overdose;41;Male;CH
+PARACETAMOL;10005882;true;20140313;Multi-organ failure;41;Male;CH
+PARACETAMOL;10005882;true;20140313;Suicide attempt;41;Male;CH
+PARACETAMOL;10006980;true;20140428;Shock;68;Male;FR
+PARACETAMOL;10006980;true;20140428;Hepatitis fulminant;68;Male;FR
+PARACETAMOL;10006980;true;20140428;Incorrect dose administered;68;Male;FR
+PARACETAMOL;10009393;true;20140417;Lobar pneumonia;63;Male;GB
+PARACETAMOL;10012654;true;20150210;Pulmonary haemorrhage;13;Female;GB
+PARACETAMOL;10012654;true;20150210;Haemorrhagic erosive gastritis;13;Female;GB
+PARACETAMOL;10016161;true;20150210;Pulmonary haemorrhage;13;Female;GB
+PARACETAMOL;10016161;true;20150210;Haemorrhagic erosive gastritis;13;Female;GB
+PARACETAMOL;10018629;true;20140318;Prostate cancer metastatic;80;Male;GB
+PARACETAMOL;10019150;true;20140318;Posterior reversible encephalopathy syndrome;55;Female;US
+PARACETAMOL;10019150;true;20140318;Cerebral infarction;55;Female;US
+PARACETAMOL;10019150;true;20140318;Cerebral microhaemorrhage;55;Female;US
+DIPYRONE;10139735;true;20230807;Cardio-respiratory arrest;16;Male;BR
+DIPYRONE;10139735;true;20230807;Respiratory failure;16;Male;BR
+DIPYRONE;10139735;true;20230807;Drug-induced liver injury;16;Male;BR
+DIPYRONE;10139735;true;20230807;Pancreatitis;16;Male;BR
+DIPYRONE;10246041;true;20140619;Death;61;Male;BR
+DIPYRONE;10246041;true;20140619;Dry mouth;61;Male;BR
+DIPYRONE;10246041;true;20140619;Somnolence;61;Male;BR
+DIPYRONE;10246041;true;20140619;Prostatic specific antigen increased;61;Male;BR
+DIPYRONE;10246041;true;20140619;Decreased appetite;61;Male;BR
+DIPYRONE;10246041;true;20140619;Peripheral swelling;61;Male;BR
+DIPYRONE;10246741;true;20140619;Hepatic failure;24;Female;DE
+DIPYRONE;10265582;true;20140627;Hepatic failure;24;Female;DE
+DIPYRONE;10402554;true;20150210;Fatigue;60;Female;DE
+DIPYRONE;10451788;true;20140915;Cardiomyopathy;77;Female;BR
+DIPYRONE;10451788;true;20140915;Cardiac arrest;77;Female;BR
+DIPYRONE;10451788;true;20140915;Lymphoma;77;Female;BR
+DIPYRONE;10451788;true;20140915;Staphylococcal infection;77;Female;BR
+DIPYRONE;10451788;true;20140915;Intestinal obstruction;77;Female;BR
+DIPYRONE;10451788;true;20140915;Phobia;77;Female;BR
+DIPYRONE;10451788;true;20140915;Metastases to lung;77;Female;BR
+DIPYRONE;10451788;true;20140915;Metastases to pleura;77;Female;BR
+DIPYRONE;10451788;true;20140915;Abdominal neoplasm;77;Female;BR
+DIPYRONE;10451788;true;20140915;Atrial fibrillation;77;Female;BR
+DIPYRONE;10451788;true;20140915;Swelling;77;Female;BR
+DIPYRONE;10451788;true;20140915;Loss of consciousness;77;Female;BR
+DIPYRONE;10451788;true;20140915;Neoplasm malignant;77;Female;BR
+DIPYRONE;10451788;true;20140915;Dyspnoea;77;Female;BR
+DIPYRONE;10451788;true;20140915;Miosis;77;Female;BR
+DIPYRONE;10451788;true;20140915;Renal impairment;77;Female;BR
+DIPYRONE;10565341;true;20141105;Respiratory failure;81;Female;BR
+DIPYRONE;10565341;true;20141105;Lung infection;81;Female;BR
+DIPYRONE;10565341;true;20141105;Pyrexia;81;Female;BR
+DIPYRONE;10565341;true;20141105;Metastases to liver;81;Female;BR
+DIPYRONE;10565341;true;20141105;Dysphagia;81;Female;BR
+DIPYRONE;10565341;true;20141105;Neoplasm;81;Female;BR
+DIPYRONE;10565341;true;20141105;Renal failure;81;Female;BR
+DIPYRONE;10565341;true;20141105;Condition aggravated;81;Female;BR
+DIPYRONE;10565341;true;20141105;Metastases to lung;81;Female;BR
+DIPYRONE;10565341;true;20141105;Urinary tract infection;81;Female;BR
+DIPYRONE;10663808;true;20150410;Hypophagia;59;Male;BR
+DIPYRONE;10663808;true;20150410;Hand fracture;59;Male;BR
+DIPYRONE;10663808;true;20150410;Nasal pruritus;59;Male;BR
+DIPYRONE;10663808;true;20150410;Blood pressure decreased;59;Male;BR
+DIPYRONE;10663808;true;20150410;Cardiac arrest;59;Male;BR
+DIPYRONE;10663808;true;20150410;Dyspepsia;59;Male;BR
+DIPYRONE;10663808;true;20150410;Influenza;59;Male;BR
+DIPYRONE;10663808;true;20150410;Malaise;59;Male;BR
+DIPYRONE;10663808;true;20150410;Syncope;59;Male;BR
+DIPYRONE;10663808;true;20150410;Nasopharyngitis;59;Male;BR
+DIPYRONE;10663808;true;20150410;Hypersensitivity;59;Male;BR
+DIPYRONE;10663808;true;20150410;Diarrhoea;59;Male;BR
+DIPYRONE;10663808;true;20150410;Respiratory arrest;59;Male;BR
+DIPYRONE;10663808;true;20150410;Asthenia;59;Male;BR
+DIPYRONE;10663808;true;20150410;Pruritus;59;Male;BR
+DIPYRONE;10663808;true;20150410;Confusional state;59;Male;BR
+DIPYRONE;10663808;true;20150410;Nausea;59;Male;BR
+DIPYRONE;10663808;true;20150410;Vomiting;59;Male;BR
+DIPYRONE;10663808;true;20150410;Throat irritation;59;Male;BR
+DIPYRONE;10687131;true;20150112;Sepsis;12;Female;RS
+DIPYRONE;10687131;true;20150112;Toxic epidermal necrolysis;12;Female;RS
+DIPYRONE;10687131;true;20150112;Distributive shock;12;Female;RS
+DIPYRONE;10688742;true;20150103;Cardiac arrest;54;Female;BR
+DIPYRONE;10688742;true;20150103;Stevens-Johnson syndrome;54;Female;BR
+ASPIRIN;10004186;true;20140502;Thrombotic microangiopathy;67;Male;US
+ASPIRIN;10004186;true;20140502;Renal impairment;67;Male;US
+ASPIRIN;10004186;true;20140502;Hepatic failure;67;Male;US
+ASPIRIN;10004186;true;20140502;Mental status changes;67;Male;US
+ASPIRIN;10004186;true;20140502;Stem cell transplant;67;Male;US
+ASPIRIN;10004186;true;20140502;Graft versus host disease;67;Male;US
+ASPIRIN;10004186;true;20140502;Fatigue;67;Male;US
+ASPIRIN;10004186;true;20140502;Drug administration error;67;Male;US
+ASPIRIN;10006049;true;20140317;Death;67;Male;US
+ASPIRIN;10006049;true;20140317;Respiratory distress;67;Male;US
+ASPIRIN;10006049;true;20140317;Anaemia;67;Male;US
+ASPIRIN;10006049;true;20140317;Haematochezia;67;Male;US
+ASPIRIN;10006071;true;20140422;Cardiac arrest;81;Male;US
+ASPIRIN;10006071;true;20140422;Blood urine present;81;Male;US
+ASPIRIN;10006071;true;20140422;Unresponsive to stimuli;81;Male;US
+ASPIRIN;10006071;true;20140422;Blood pressure decreased;81;Male;US
+ASPIRIN;10006071;true;20140422;Haemoglobin decreased;81;Male;US
+ASPIRIN;10006071;true;20140422;Abdominal pain;81;Male;US
+ASPIRIN;10006117;true;20140324;Infection;67;Female;US
+ASPIRIN;10006117;true;20140324;Neutropenia;67;Female;US
+ASPIRIN;10006117;true;20140324;White blood cell count decreased;67;Female;US
+ASPIRIN;10006156;true;20140313;Death;73;Male;US
+ASPIRIN;10008011;true;20140321;Subdural haemorrhage;67;Female;US
+ASPIRIN;10008011;true;20140321;Brain stem haemorrhage;67;Female;US
+ASPIRIN;10008011;true;20140321;Haematemesis;67;Female;US
+ASPIRIN;10008011;true;20140321;Apnoea;67;Female;US
+ASPIRIN;10009500;true;20140324;Cerebral haemorrhage;85;Female;US
+ASPIRIN;10011700;true;20140314;Chronic obstructive pulmonary disease;59;Male;TN
+ASPIRIN;10012210;true;20140314;Sudden cardiac death;65;Male;KR
+ASPIRIN;10012210;true;20140314;Aspergillus test positive;65;Male;KR
+ASPIRIN;10012210;true;20140314;Staphylococcus test positive;65;Male;KR
+ASPIRIN;10012210;true;20140314;Mycobacterium avium complex infection;65;Male;KR
+ASPIRIN;10012210;true;20140314;Acute respiratory distress syndrome;65;Male;KR
+ASPIRIN;10012210;true;20140314;Hyperthyroidism;65;Male;KR
+ASPIRIN;10012210;true;20140314;Pulmonary toxicity;65;Male;KR
+ASPIRIN;10012210;true;20140314;Organising pneumonia;65;Male;KR
+ASPIRIN;10012210;true;20140314;Pyrexia;65;Male;KR
+ASPIRIN;10012210;true;20140314;Cough;65;Male;KR
+ASPIRIN;10012210;true;20140314;Dyspnoea;65;Male;KR
+ASPIRIN;10012210;true;20140314;Weight decreased;65;Male;KR
+ASPIRIN;10012210;true;20140314;Haemoptysis;65;Male;KR
+ASPIRIN;10012210;true;20140314;Asthenia;65;Male;KR
+ASPIRIN;10012534;true;20140314;Cerebral haemorrhage;87;Male;US
+NAPROXEN;10032581;true;20140324;Bronchopneumonia;78;Female;US
+NAPROXEN;10032581;true;20140324;Respiratory failure;78;Female;US
+NAPROXEN;10032581;true;20140324;Hip fracture;78;Female;US
+NAPROXEN;10032581;true;20140324;Angina pectoris;78;Female;US
+NAPROXEN;10032581;true;20140324;Dementia;78;Female;US
+NAPROXEN;10032581;true;20140324;Cardiac failure congestive;78;Female;US
+NAPROXEN;10032581;true;20140324;Emotional disorder;78;Female;US
+NAPROXEN;10032581;true;20140324;Chest pain;78;Female;US
+NAPROXEN;10032581;true;20140324;Oedema;78;Female;US
+NAPROXEN;10032581;true;20140324;Cardiovascular disorder;78;Female;US
+NAPROXEN;10032581;true;20140324;Weight increased;78;Female;US
+NAPROXEN;10032581;true;20140324;Brain hypoxia;78;Female;US
+NAPROXEN;10034102;true;20140325;Toxicity to various agents;42;Female;US
+NAPROXEN;10034132;true;20140325;Toxicity to various agents;58;Male;US
+NAPROXEN;10034160;true;20140325;Toxicity to various agents;81;Male;US
+NAPROXEN;10034741;true;20140325;Toxicity to various agents;22;Female;US
+NAPROXEN;10034759;true;20140325;Toxicity to various agents;26;Female;US
+NAPROXEN;10034848;true;20140325;Toxicity to various agents;56;Female;US
+NAPROXEN;10034886;true;20140325;Toxicity to various agents;42;Male;US
+NAPROXEN;10034910;true;20140325;Toxicity to various agents;41;Male;US
+NAPROXEN;10034910;true;20140325;Drug abuse;41;Male;US
+NAPROXEN;10034930;true;20140325;Toxicity to various agents;81;Male;US
+IBUPROFEN;10015853;true;20140317;Hepatic lesion;74;Female;DE
+IBUPROFEN;10015853;true;20140317;Coma;74;Female;DE
+IBUPROFEN;10015853;true;20140317;Epilepsy;74;Female;DE
+IBUPROFEN;10015853;true;20140317;Renal disorder;74;Female;DE
+IBUPROFEN;10015853;true;20140317;Urinary tract disorder;74;Female;DE
+IBUPROFEN;10015853;true;20140317;Blood creatinine increased;74;Female;DE
+IBUPROFEN;10015853;true;20140317;Diarrhoea;74;Female;DE
+IBUPROFEN;10016713;true;20140318;Hepatic failure;65;Male;US
+IBUPROFEN;10016713;true;20140318;Tuberculosis;65;Male;US
+IBUPROFEN;10016713;true;20140318;Liver disorder;65;Male;US
+IBUPROFEN;10016713;true;20140318;Drug abuse;65;Male;US
+IBUPROFEN;10018629;true;20140318;Prostate cancer metastatic;80;Male;GB
+IBUPROFEN;10027373;true;20140321;Campylobacter gastroenteritis;71;Female;SG
+IBUPROFEN;10027373;true;20140321;Renal failure acute;71;Female;SG
+IBUPROFEN;10027373;true;20140321;Pneumonia influenzal;71;Female;SG
+IBUPROFEN;10027655;true;20140328;Death;49;Female;US
+IBUPROFEN;10027655;true;20140328;Oedema peripheral;49;Female;US
+IBUPROFEN;10029040;true;20140321;Sepsis;58;Male;US
+IBUPROFEN;10033945;true;20140325;Toxicity to various agents;35;Female;US
+IBUPROFEN;10034217;true;20140325;Toxicity to various agents;35;Female;US
+IBUPROFEN;10036469;true;20140326;Hepatitis acute;72;Male;GB
+IBUPROFEN;10036469;true;20140326;Cardiac arrest;72;Male;GB
+IBUPROFEN;10036469;true;20140326;Convulsion;72;Male;GB
+IBUPROFEN;10043483;true;20140507;Renal failure acute;50;Female;DE
+IBUPROFEN;10043483;true;20140507;Urosepsis;50;Female;DE
+IBUPROFEN;10043483;true;20140507;Cardiopulmonary failure;50;Female;DE
+IBUPROFEN;10043483;true;20140507;Congestive cardiomyopathy;50;Female;DE
+IBUPROFEN;10043483;true;20140507;Ejection fraction decreased;50;Female;DE
+IBUPROFEN;10043483;true;20140507;Dyspnoea;50;Female;DE
+IBUPROFEN;10043483;true;20140507;Respiratory failure;50;Female;DE
+IBUPROFEN;10043483;true;20140507;General physical condition abnormal;50;Female;DE
+IBUPROFEN;10043483;true;20140507;Infection;50;Female;DE
+DICLOFENAC;10018114;true;20140318;Infusion related reaction;57;Male;US
+DICLOFENAC;10039161;true;20140326;Hyperkalaemia;26;Male;IN
+DICLOFENAC;10039161;true;20140326;Areflexia;26;Male;IN
+DICLOFENAC;10039161;true;20140326;Muscular weakness;26;Male;IN
+DICLOFENAC;10039161;true;20140326;Tachypnoea;26;Male;IN
+DICLOFENAC;10039161;true;20140326;Hypokinesia;26;Male;IN
+DICLOFENAC;10039161;true;20140326;Left ventricular dysfunction;26;Male;IN
+DICLOFENAC;10039161;true;20140326;Ejection fraction decreased;26;Male;IN
+DICLOFENAC;10039161;true;20140326;Lactic acidosis;26;Male;IN
+DICLOFENAC;10039161;true;20140326;Metabolic acidosis;26;Male;IN
+DICLOFENAC;10039161;true;20140326;Ventricular fibrillation;26;Male;IN
+DICLOFENAC;10039161;true;20140326;Coagulopathy;26;Male;IN
+DICLOFENAC;10039161;true;20140326;Thrombocytopenia;26;Male;IN
+DICLOFENAC;10039161;true;20140326;Blister;26;Male;IN
+DICLOFENAC;10039161;true;20140326;Sepsis;26;Male;IN
+DICLOFENAC;10039161;true;20140326;Septic shock;26;Male;IN
+DICLOFENAC;10039161;true;20140326;Upper gastrointestinal haemorrhage;26;Male;IN
+DICLOFENAC;10039161;true;20140326;Staphylococcal infection;26;Male;IN
+DICLOFENAC;10039161;true;20140326;Cardiac arrest;26;Male;IN
+DICLOFENAC;10039161;true;20140326;Drug dependence;26;Male;IN
+DICLOFENAC;10039161;true;20140326;Substance abuse;26;Male;IN
+DICLOFENAC;10039161;true;20140326;Drug ineffective;26;Male;IN
+DICLOFENAC;10049839;true;20140401;Lactic acidosis;26;Male;IN
+DICLOFENAC;10049839;true;20140401;Drug dependence;26;Male;IN
+DICLOFENAC;10049839;true;20140401;Sepsis;26;Male;IN
+DICLOFENAC;10049839;true;20140401;Metabolic acidosis;26;Male;IN
+DICLOFENAC;10049839;true;20140401;Thrombocytopenia;26;Male;IN
+DICLOFENAC;10049839;true;20140401;Ventricular fibrillation;26;Male;IN
+DICLOFENAC;10049839;true;20140401;Drug abuse;26;Male;IN
+DICLOFENAC;10049839;true;20140401;Coagulopathy;26;Male;IN
+DICLOFENAC;10049839;true;20140401;Hyperkalaemia;26;Male;IN
+DICLOFENAC;10049840;true;20140401;Hyperkalaemia;26;Male;IN
+DICLOFENAC;10049840;true;20140401;Drug abuse;26;Male;IN
+DICLOFENAC;10049840;true;20140401;Drug dependence;26;Male;IN
+DICLOFENAC;10049840;true;20140401;Metabolic acidosis;26;Male;IN
+DICLOFENAC;10049840;true;20140401;Sepsis;26;Male;IN
+DICLOFENAC;10049840;true;20140401;Coagulopathy;26;Male;IN
+DICLOFENAC;10049840;true;20140401;Thrombocytopenia;26;Male;IN
+DICLOFENAC;10049840;true;20140401;Ventricular fibrillation;26;Male;IN
+DICLOFENAC;10049840;true;20140401;Lactic acidosis;26;Male;IN
+DICLOFENAC;10057848;true;20140408;Myocardial infarction;74;Female;US
+DICLOFENAC;10057848;true;20140408;Respiratory arrest;74;Female;US
+DICLOFENAC;10057848;true;20140408;Hypotension;74;Female;US
+DICLOFENAC;10057848;true;20140408;Anaphylactic reaction;74;Female;US
+DICLOFENAC;10057848;true;20140408;Loss of consciousness;74;Female;US
+DICLOFENAC;10057848;true;20140408;Lethargy;74;Female;US
+DICLOFENAC;10057848;true;20140408;Respiration abnormal;74;Female;US
+DICLOFENAC;10094645;true;20140422;Cerebrovascular disorder;48;Female;GB
+DICLOFENAC;10094645;true;20140422;Pulmonary embolism;48;Female;GB
+DICLOFENAC;10094645;true;20140422;Cerebrovascular accident;48;Female;GB
+DICLOFENAC;10094645;true;20140422;Deep vein thrombosis;48;Female;GB
+DICLOFENAC;10094645;true;20140422;Dermatitis acneiform;48;Female;GB
+DICLOFENAC;10094645;true;20140422;Metastases to bone;48;Female;GB
+DICLOFENAC;10136437;true;20140429;Death;69;Female;BR
+DICLOFENAC;10136437;true;20140429;Respiratory failure;69;Female;BR
+DICLOFENAC;10136437;true;20140429;Ovarian cancer;69;Female;BR
+DICLOFENAC;10149229;true;20161122;Febrile neutropenia;70;Female;NL
+DICLOFENAC;10149229;true;20161122;Musculoskeletal pain;70;Female;NL
+DICLOFENAC;10149229;true;20161122;Malaise;70;Female;NL
+DICLOFENAC;10149229;true;20161122;Febrile neutropenia;70;Female;NL
+DICLOFENAC;10149229;true;20161122;Septic shock;70;Female;NL
+DICLOFENAC;10149229;true;20161122;Fungal infection;70;Female;NL
+DICLOFENAC;10149229;true;20161122;Oropharyngeal candidiasis;70;Female;NL
+DICLOFENAC;10149229;true;20161122;Fatigue;70;Female;NL
+DICLOFENAC;10149229;true;20161122;Arrhythmia;70;Female;NL
+DICLOFENAC;10149229;true;20161122;Respiratory failure;70;Female;NL
+DICLOFENAC;10149854;true;20150820;Musculoskeletal pain;67;Female;HU
+DICLOFENAC;10149854;true;20150820;Cardiac failure;67;Female;HU
+DICLOFENAC;10156492;true;20140507;Overdose;53;Male;CA
