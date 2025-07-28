@@ -1,0 +1,45 @@
+@base <http://www.example.org/fixed_painkiller-ontology/> .
+@prefix wu: <http://www.example.org/fixed_painkiller-ontology/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+wu:painkillerParacetamol a wu:Painkiller;
+  wu:totalReports 88881;
+  wu:seriousReports 87088;
+  wu:fatalReports 11908;
+  wu:usRegulatoryStatus "Over-the-Counter"@en;
+  wu:label "Paracetamol"@en .
+
+wu:painkillerDipyrone a wu:Painkiller;
+  wu:totalReports 3051;
+  wu:seriousReports 2989;
+  wu:fatalReports 530;
+  wu:usRegulatoryStatus "Not Approved in US"@en;
+  wu:label "Dipyrone"@en .
+
+wu:painkillerAspirin a wu:Painkiller;
+  wu:totalReports 282174;
+  wu:seriousReports 205775;
+  wu:fatalReports 26425;
+  wu:usRegulatoryStatus "Over-the-Counter"@en;
+  wu:label "Aspirin"@en .
+
+wu:painkillerNaproxen a wu:Painkiller;
+  wu:totalReports 35881;
+  wu:seriousReports 29472;
+  wu:fatalReports 4288;
+  wu:usRegulatoryStatus "Prescription"@en;
+  wu:label "Naproxen"@en .
+
+wu:painkillerIbuprofen a wu:Painkiller;
+  wu:totalReports 91169;
+  wu:seriousReports 68995;
+  wu:fatalReports 8467;
+  wu:usRegulatoryStatus "Over-the-Counter"@en;
+  wu:label "Ibuprofen"@en .
+
+wu:painkillerDiclofenac a wu:Painkiller;
+  wu:totalReports 48880;
+  wu:seriousReports 40522;
+  wu:fatalReports 4832;
+  wu:usRegulatoryStatus "Over-the-Counter"@en;
+  wu:label "Diclofenac"@en .

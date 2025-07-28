@@ -1,0 +1,191 @@
+{
+  "baseIRI": "http://www.example.org/fixed_painkiller-ontology/",
+  "namespaces": {
+    "wu": "http://www.example.org/fixed_painkiller-ontology/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "subjectMappings": [
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "wu",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "totalReports"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "total_reports",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "integer"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "wu",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "seriousReports"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "serious_reports",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "integer"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "wu",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "fatalReports"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "fatal_reports",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "integer"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "wu",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "usRegulatoryStatus"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "us_regulatory_status",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "wu",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "label"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "painkiller_id",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "transformation": {
+          "language": "raw"
+        },
+        "valueSource": {
+          "columnName": "painkiller_IRI",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "wu",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Painkiller"
+          }
+        }
+      ]
+    }
+  ]
+}

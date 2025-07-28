@@ -1,0 +1,572 @@
+@base <http://www.example.org/fixed_painkiller-ontology/> .
+@prefix wu: <http://www.example.org/fixed_painkiller-ontology/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+wu:report10004703 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Death"@en;
+  wu:reportDate 20140417;
+  wu:patientAge 41;
+  wu:patientSex "Male"@en;
+  wu:reportCountryCode "KE"@en;
+  wu:includesPainkiller wu:painkillerParacetamol .
+
+wu:report10005839 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Leukoencephalopathy"@en, "Peroneal nerve palsy"@en, "Mobility decreased"@en,
+    "Sensory loss"@en, "Grand mal convulsion"@en, "Muscular weakness"@en;
+  wu:reportDate 20140313;
+  wu:patientAge 69;
+  wu:patientSex "Female"@en;
+  wu:reportCountryCode "GB"@en;
+  wu:includesPainkiller wu:painkillerParacetamol .
+
+wu:report10005867 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Drug-induced liver injury"@en;
+  wu:reportDate 20140313;
+  wu:patientAge 59;
+  wu:patientSex "Male"@en;
+  wu:reportCountryCode "FR"@en;
+  wu:includesPainkiller wu:painkillerParacetamol .
+
+wu:report10005882 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Intentional overdose"@en, "Multi-organ failure"@en, "Suicide attempt"@en;
+  wu:reportDate 20140313;
+  wu:patientAge 41;
+  wu:patientSex "Male"@en;
+  wu:reportCountryCode "CH"@en;
+  wu:includesPainkiller wu:painkillerParacetamol .
+
+wu:report10006980 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Shock"@en, "Hepatitis fulminant"@en, "Incorrect dose administered"@en;
+  wu:reportDate 20140428;
+  wu:patientAge 68;
+  wu:patientSex "Male"@en;
+  wu:reportCountryCode "FR"@en;
+  wu:includesPainkiller wu:painkillerParacetamol .
+
+wu:report10009393 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Lobar pneumonia"@en;
+  wu:reportDate 20140417;
+  wu:patientAge 63;
+  wu:patientSex "Male"@en;
+  wu:reportCountryCode "GB"@en;
+  wu:includesPainkiller wu:painkillerParacetamol .
+
+wu:report10012654 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Pulmonary haemorrhage"@en, "Haemorrhagic erosive gastritis"@en;
+  wu:reportDate 20150210;
+  wu:patientAge 13;
+  wu:patientSex "Female"@en;
+  wu:reportCountryCode "GB"@en;
+  wu:includesPainkiller wu:painkillerParacetamol .
+
+wu:report10016161 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Pulmonary haemorrhage"@en, "Haemorrhagic erosive gastritis"@en;
+  wu:reportDate 20150210;
+  wu:patientAge 13;
+  wu:patientSex "Female"@en;
+  wu:reportCountryCode "GB"@en;
+  wu:includesPainkiller wu:painkillerParacetamol .
+
+wu:report10018629 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Prostate cancer metastatic"@en;
+  wu:reportDate 20140318;
+  wu:patientAge 80;
+  wu:patientSex "Male"@en;
+  wu:reportCountryCode "GB"@en;
+  wu:includesPainkiller wu:painkillerParacetamol, wu:painkillerIbuprofen .
+
+wu:report10019150 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Posterior reversible encephalopathy syndrome"@en, "Cerebral infarction"@en,
+    "Cerebral microhaemorrhage"@en;
+  wu:reportDate 20140318;
+  wu:patientAge 55;
+  wu:patientSex "Female"@en;
+  wu:reportCountryCode "US"@en;
+  wu:includesPainkiller wu:painkillerParacetamol .
+
+wu:report10139735 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Cardio-respiratory arrest"@en, "Respiratory failure"@en, "Drug-induced liver injury"@en,
+    "Pancreatitis"@en;
+  wu:reportDate 20230807;
+  wu:patientAge 16;
+  wu:patientSex "Male"@en;
+  wu:reportCountryCode "BR"@en;
+  wu:includesPainkiller wu:painkillerDipyrone .
+
+wu:report10246041 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Death"@en, "Dry mouth"@en, "Somnolence"@en, "Prostatic specific antigen increased"@en,
+    "Decreased appetite"@en, "Peripheral swelling"@en;
+  wu:reportDate 20140619;
+  wu:patientAge 61;
+  wu:patientSex "Male"@en;
+  wu:reportCountryCode "BR"@en;
+  wu:includesPainkiller wu:painkillerDipyrone .
+
+wu:report10246741 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Hepatic failure"@en;
+  wu:reportDate 20140619;
+  wu:patientAge 24;
+  wu:patientSex "Female"@en;
+  wu:reportCountryCode "DE"@en;
+  wu:includesPainkiller wu:painkillerDipyrone .
+
+wu:report10265582 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Hepatic failure"@en;
+  wu:reportDate 20140627;
+  wu:patientAge 24;
+  wu:patientSex "Female"@en;
+  wu:reportCountryCode "DE"@en;
+  wu:includesPainkiller wu:painkillerDipyrone .
+
+wu:report10402554 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Fatigue"@en;
+  wu:reportDate 20150210;
+  wu:patientAge 60;
+  wu:patientSex "Female"@en;
+  wu:reportCountryCode "DE"@en;
+  wu:includesPainkiller wu:painkillerDipyrone .
+
+wu:report10451788 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Cardiomyopathy"@en, "Cardiac arrest"@en, "Lymphoma"@en, "Staphylococcal infection"@en,
+    "Intestinal obstruction"@en, "Phobia"@en, "Metastases to lung"@en, "Metastases to pleura"@en,
+    "Abdominal neoplasm"@en, "Atrial fibrillation"@en, "Swelling"@en, "Loss of consciousness"@en,
+    "Neoplasm malignant"@en, "Dyspnoea"@en, "Miosis"@en, "Renal impairment"@en;
+  wu:reportDate 20140915;
+  wu:patientAge 77;
+  wu:patientSex "Female"@en;
+  wu:reportCountryCode "BR"@en;
+  wu:includesPainkiller wu:painkillerDipyrone .
+
+wu:report10565341 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Respiratory failure"@en, "Lung infection"@en, "Pyrexia"@en, "Metastases to liver"@en,
+    "Dysphagia"@en, "Neoplasm"@en, "Renal failure"@en, "Condition aggravated"@en, "Metastases to lung"@en,
+    "Urinary tract infection"@en;
+  wu:reportDate 20141105;
+  wu:patientAge 81;
+  wu:patientSex "Female"@en;
+  wu:reportCountryCode "BR"@en;
+  wu:includesPainkiller wu:painkillerDipyrone .
+
+wu:report10663808 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Hypophagia"@en, "Hand fracture"@en, "Nasal pruritus"@en, "Blood pressure decreased"@en,
+    "Cardiac arrest"@en, "Dyspepsia"@en, "Influenza"@en, "Malaise"@en, "Syncope"@en, "Nasopharyngitis"@en,
+    "Hypersensitivity"@en, "Diarrhoea"@en, "Respiratory arrest"@en, "Asthenia"@en, "Pruritus"@en,
+    "Confusional state"@en, "Nausea"@en, "Vomiting"@en, "Throat irritation"@en;
+  wu:reportDate 20150410;
+  wu:patientAge 59;
+  wu:patientSex "Male"@en;
+  wu:reportCountryCode "BR"@en;
+  wu:includesPainkiller wu:painkillerDipyrone .
+
+wu:report10687131 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Sepsis"@en, "Toxic epidermal necrolysis"@en, "Distributive shock"@en;
+  wu:reportDate 20150112;
+  wu:patientAge 12;
+  wu:patientSex "Female"@en;
+  wu:reportCountryCode "RS"@en;
+  wu:includesPainkiller wu:painkillerDipyrone .
+
+wu:report10688742 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Cardiac arrest"@en, "Stevens-Johnson syndrome"@en;
+  wu:reportDate 20150103;
+  wu:patientAge 54;
+  wu:patientSex "Female"@en;
+  wu:reportCountryCode "BR"@en;
+  wu:includesPainkiller wu:painkillerDipyrone .
+
+wu:report10004186 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Thrombotic microangiopathy"@en, "Renal impairment"@en, "Hepatic failure"@en,
+    "Mental status changes"@en, "Stem cell transplant"@en, "Graft versus host disease"@en,
+    "Fatigue"@en, "Drug administration error"@en;
+  wu:reportDate 20140502;
+  wu:patientAge 67;
+  wu:patientSex "Male"@en;
+  wu:reportCountryCode "US"@en;
+  wu:includesPainkiller wu:painkillerAspirin .
+
+wu:report10006049 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Death"@en, "Respiratory distress"@en, "Anaemia"@en, "Haematochezia"@en;
+  wu:reportDate 20140317;
+  wu:patientAge 67;
+  wu:patientSex "Male"@en;
+  wu:reportCountryCode "US"@en;
+  wu:includesPainkiller wu:painkillerAspirin .
+
+wu:report10006071 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Cardiac arrest"@en, "Blood urine present"@en, "Unresponsive to stimuli"@en,
+    "Blood pressure decreased"@en, "Haemoglobin decreased"@en, "Abdominal pain"@en;
+  wu:reportDate 20140422;
+  wu:patientAge 81;
+  wu:patientSex "Male"@en;
+  wu:reportCountryCode "US"@en;
+  wu:includesPainkiller wu:painkillerAspirin .
+
+wu:report10006117 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Infection"@en, "Neutropenia"@en, "White blood cell count decreased"@en;
+  wu:reportDate 20140324;
+  wu:patientAge 67;
+  wu:patientSex "Female"@en;
+  wu:reportCountryCode "US"@en;
+  wu:includesPainkiller wu:painkillerAspirin .
+
+wu:report10006156 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Death"@en;
+  wu:reportDate 20140313;
+  wu:patientAge 73;
+  wu:patientSex "Male"@en;
+  wu:reportCountryCode "US"@en;
+  wu:includesPainkiller wu:painkillerAspirin .
+
+wu:report10008011 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Subdural haemorrhage"@en, "Brain stem haemorrhage"@en, "Haematemesis"@en,
+    "Apnoea"@en;
+  wu:reportDate 20140321;
+  wu:patientAge 67;
+  wu:patientSex "Female"@en;
+  wu:reportCountryCode "US"@en;
+  wu:includesPainkiller wu:painkillerAspirin .
+
+wu:report10009500 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Cerebral haemorrhage"@en;
+  wu:reportDate 20140324;
+  wu:patientAge 85;
+  wu:patientSex "Female"@en;
+  wu:reportCountryCode "US"@en;
+  wu:includesPainkiller wu:painkillerAspirin .
+
+wu:report10011700 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Chronic obstructive pulmonary disease"@en;
+  wu:reportDate 20140314;
+  wu:patientAge 59;
+  wu:patientSex "Male"@en;
+  wu:reportCountryCode "TN"@en;
+  wu:includesPainkiller wu:painkillerAspirin .
+
+wu:report10012210 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Sudden cardiac death"@en, "Aspergillus test positive"@en, "Staphylococcus test positive"@en,
+    "Mycobacterium avium complex infection"@en, "Acute respiratory distress syndrome"@en,
+    "Hyperthyroidism"@en, "Pulmonary toxicity"@en, "Organising pneumonia"@en, "Pyrexia"@en,
+    "Cough"@en, "Dyspnoea"@en, "Weight decreased"@en, "Haemoptysis"@en, "Asthenia"@en;
+  wu:reportDate 20140314;
+  wu:patientAge 65;
+  wu:patientSex "Male"@en;
+  wu:reportCountryCode "KR"@en;
+  wu:includesPainkiller wu:painkillerAspirin .
+
+wu:report10012534 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Cerebral haemorrhage"@en;
+  wu:reportDate 20140314;
+  wu:patientAge 87;
+  wu:patientSex "Male"@en;
+  wu:reportCountryCode "US"@en;
+  wu:includesPainkiller wu:painkillerAspirin .
+
+wu:report10032581 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Bronchopneumonia"@en, "Respiratory failure"@en, "Hip fracture"@en,
+    "Angina pectoris"@en, "Dementia"@en, "Cardiac failure congestive"@en, "Emotional disorder"@en,
+    "Chest pain"@en, "Oedema"@en, "Cardiovascular disorder"@en, "Weight increased"@en,
+    "Brain hypoxia"@en;
+  wu:reportDate 20140324;
+  wu:patientAge 78;
+  wu:patientSex "Female"@en;
+  wu:reportCountryCode "US"@en;
+  wu:includesPainkiller wu:painkillerNaproxen .
+
+wu:report10034102 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Toxicity to various agents"@en;
+  wu:reportDate 20140325;
+  wu:patientAge 42;
+  wu:patientSex "Female"@en;
+  wu:reportCountryCode "US"@en;
+  wu:includesPainkiller wu:painkillerNaproxen .
+
+wu:report10034132 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Toxicity to various agents"@en;
+  wu:reportDate 20140325;
+  wu:patientAge 58;
+  wu:patientSex "Male"@en;
+  wu:reportCountryCode "US"@en;
+  wu:includesPainkiller wu:painkillerNaproxen .
+
+wu:report10034160 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Toxicity to various agents"@en;
+  wu:reportDate 20140325;
+  wu:patientAge 81;
+  wu:patientSex "Male"@en;
+  wu:reportCountryCode "US"@en;
+  wu:includesPainkiller wu:painkillerNaproxen .
+
+wu:report10034741 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Toxicity to various agents"@en;
+  wu:reportDate 20140325;
+  wu:patientAge 22;
+  wu:patientSex "Female"@en;
+  wu:reportCountryCode "US"@en;
+  wu:includesPainkiller wu:painkillerNaproxen .
+
+wu:report10034759 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Toxicity to various agents"@en;
+  wu:reportDate 20140325;
+  wu:patientAge 26;
+  wu:patientSex "Female"@en;
+  wu:reportCountryCode "US"@en;
+  wu:includesPainkiller wu:painkillerNaproxen .
+
+wu:report10034848 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Toxicity to various agents"@en;
+  wu:reportDate 20140325;
+  wu:patientAge 56;
+  wu:patientSex "Female"@en;
+  wu:reportCountryCode "US"@en;
+  wu:includesPainkiller wu:painkillerNaproxen .
+
+wu:report10034886 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Toxicity to various agents"@en;
+  wu:reportDate 20140325;
+  wu:patientAge 42;
+  wu:patientSex "Male"@en;
+  wu:reportCountryCode "US"@en;
+  wu:includesPainkiller wu:painkillerNaproxen .
+
+wu:report10034910 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Toxicity to various agents"@en, "Drug abuse"@en;
+  wu:reportDate 20140325;
+  wu:patientAge 41;
+  wu:patientSex "Male"@en;
+  wu:reportCountryCode "US"@en;
+  wu:includesPainkiller wu:painkillerNaproxen .
+
+wu:report10034930 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Toxicity to various agents"@en;
+  wu:reportDate 20140325;
+  wu:patientAge 81;
+  wu:patientSex "Male"@en;
+  wu:reportCountryCode "US"@en;
+  wu:includesPainkiller wu:painkillerNaproxen .
+
+wu:report10015853 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Hepatic lesion"@en, "Coma"@en, "Epilepsy"@en, "Renal disorder"@en,
+    "Urinary tract disorder"@en, "Blood creatinine increased"@en, "Diarrhoea"@en;
+  wu:reportDate 20140317;
+  wu:patientAge 74;
+  wu:patientSex "Female"@en;
+  wu:reportCountryCode "DE"@en;
+  wu:includesPainkiller wu:painkillerIbuprofen .
+
+wu:report10016713 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Hepatic failure"@en, "Tuberculosis"@en, "Liver disorder"@en, "Drug abuse"@en;
+  wu:reportDate 20140318;
+  wu:patientAge 65;
+  wu:patientSex "Male"@en;
+  wu:reportCountryCode "US"@en;
+  wu:includesPainkiller wu:painkillerIbuprofen .
+
+wu:report10027373 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Campylobacter gastroenteritis"@en, "Renal failure acute"@en, "Pneumonia influenzal"@en;
+  wu:reportDate 20140321;
+  wu:patientAge 71;
+  wu:patientSex "Female"@en;
+  wu:reportCountryCode "SG"@en;
+  wu:includesPainkiller wu:painkillerIbuprofen .
+
+wu:report10027655 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Death"@en, "Oedema peripheral"@en;
+  wu:reportDate 20140328;
+  wu:patientAge 49;
+  wu:patientSex "Female"@en;
+  wu:reportCountryCode "US"@en;
+  wu:includesPainkiller wu:painkillerIbuprofen .
+
+wu:report10029040 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Sepsis"@en;
+  wu:reportDate 20140321;
+  wu:patientAge 58;
+  wu:patientSex "Male"@en;
+  wu:reportCountryCode "US"@en;
+  wu:includesPainkiller wu:painkillerIbuprofen .
+
+wu:report10033945 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Toxicity to various agents"@en;
+  wu:reportDate 20140325;
+  wu:patientAge 35;
+  wu:patientSex "Female"@en;
+  wu:reportCountryCode "US"@en;
+  wu:includesPainkiller wu:painkillerIbuprofen .
+
+wu:report10034217 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Toxicity to various agents"@en;
+  wu:reportDate 20140325;
+  wu:patientAge 35;
+  wu:patientSex "Female"@en;
+  wu:reportCountryCode "US"@en;
+  wu:includesPainkiller wu:painkillerIbuprofen .
+
+wu:report10036469 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Hepatitis acute"@en, "Cardiac arrest"@en, "Convulsion"@en;
+  wu:reportDate 20140326;
+  wu:patientAge 72;
+  wu:patientSex "Male"@en;
+  wu:reportCountryCode "GB"@en;
+  wu:includesPainkiller wu:painkillerIbuprofen .
+
+wu:report10043483 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Renal failure acute"@en, "Urosepsis"@en, "Cardiopulmonary failure"@en,
+    "Congestive cardiomyopathy"@en, "Ejection fraction decreased"@en, "Dyspnoea"@en, "Respiratory failure"@en,
+    "General physical condition abnormal"@en, "Infection"@en;
+  wu:reportDate 20140507;
+  wu:patientAge 50;
+  wu:patientSex "Female"@en;
+  wu:reportCountryCode "DE"@en;
+  wu:includesPainkiller wu:painkillerIbuprofen .
+
+wu:report10018114 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Infusion related reaction"@en;
+  wu:reportDate 20140318;
+  wu:patientAge 57;
+  wu:patientSex "Male"@en;
+  wu:reportCountryCode "US"@en;
+  wu:includesPainkiller wu:painkillerDiclofenac .
+
+wu:report10039161 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Hyperkalaemia"@en, "Areflexia"@en, "Muscular weakness"@en, "Tachypnoea"@en,
+    "Hypokinesia"@en, "Left ventricular dysfunction"@en, "Ejection fraction decreased"@en,
+    "Lactic acidosis"@en, "Metabolic acidosis"@en, "Ventricular fibrillation"@en, "Coagulopathy"@en,
+    "Thrombocytopenia"@en, "Blister"@en, "Sepsis"@en, "Septic shock"@en, "Upper gastrointestinal haemorrhage"@en,
+    "Staphylococcal infection"@en, "Cardiac arrest"@en, "Drug dependence"@en, "Substance abuse"@en,
+    "Drug ineffective"@en;
+  wu:reportDate 20140326;
+  wu:patientAge 26;
+  wu:patientSex "Male"@en;
+  wu:reportCountryCode "IN"@en;
+  wu:includesPainkiller wu:painkillerDiclofenac .
+
+wu:report10049839 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Lactic acidosis"@en, "Drug dependence"@en, "Sepsis"@en, "Metabolic acidosis"@en,
+    "Thrombocytopenia"@en, "Ventricular fibrillation"@en, "Drug abuse"@en, "Coagulopathy"@en,
+    "Hyperkalaemia"@en;
+  wu:reportDate 20140401;
+  wu:patientAge 26;
+  wu:patientSex "Male"@en;
+  wu:reportCountryCode "IN"@en;
+  wu:includesPainkiller wu:painkillerDiclofenac .
+
+wu:report10049840 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Hyperkalaemia"@en, "Drug abuse"@en, "Drug dependence"@en, "Metabolic acidosis"@en,
+    "Sepsis"@en, "Coagulopathy"@en, "Thrombocytopenia"@en, "Ventricular fibrillation"@en,
+    "Lactic acidosis"@en;
+  wu:reportDate 20140401;
+  wu:patientAge 26;
+  wu:patientSex "Male"@en;
+  wu:reportCountryCode "IN"@en;
+  wu:includesPainkiller wu:painkillerDiclofenac .
+
+wu:report10057848 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Myocardial infarction"@en, "Respiratory arrest"@en, "Hypotension"@en,
+    "Anaphylactic reaction"@en, "Loss of consciousness"@en, "Lethargy"@en, "Respiration abnormal"@en;
+  wu:reportDate 20140408;
+  wu:patientAge 74;
+  wu:patientSex "Female"@en;
+  wu:reportCountryCode "US"@en;
+  wu:includesPainkiller wu:painkillerDiclofenac .
+
+wu:report10094645 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Cerebrovascular disorder"@en, "Pulmonary embolism"@en, "Cerebrovascular accident"@en,
+    "Deep vein thrombosis"@en, "Dermatitis acneiform"@en, "Metastases to bone"@en;
+  wu:reportDate 20140422;
+  wu:patientAge 48;
+  wu:patientSex "Female"@en;
+  wu:reportCountryCode "GB"@en;
+  wu:includesPainkiller wu:painkillerDiclofenac .
+
+wu:report10136437 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Death"@en, "Respiratory failure"@en, "Ovarian cancer"@en;
+  wu:reportDate 20140429;
+  wu:patientAge 69;
+  wu:patientSex "Female"@en;
+  wu:reportCountryCode "BR"@en;
+  wu:includesPainkiller wu:painkillerDiclofenac .
+
+wu:report10149229 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Febrile neutropenia"@en, "Musculoskeletal pain"@en, "Malaise"@en, "Septic shock"@en,
+    "Fungal infection"@en, "Oropharyngeal candidiasis"@en, "Fatigue"@en, "Arrhythmia"@en,
+    "Respiratory failure"@en;
+  wu:reportDate 20161122;
+  wu:patientAge 70;
+  wu:patientSex "Female"@en;
+  wu:reportCountryCode "NL"@en;
+  wu:includesPainkiller wu:painkillerDiclofenac .
+
+wu:report10149854 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Musculoskeletal pain"@en, "Cardiac failure"@en;
+  wu:reportDate 20150820;
+  wu:patientAge 67;
+  wu:patientSex "Female"@en;
+  wu:reportCountryCode "HU"@en;
+  wu:includesPainkiller wu:painkillerDiclofenac .
+
+wu:report10156492 a wu:Report;
+  wu:isFatal true;
+  wu:sideEffect "Overdose"@en;
+  wu:reportDate 20140507;
+  wu:patientAge 53;
+  wu:patientSex "Male"@en;
+  wu:reportCountryCode "CA"@en;
+  wu:includesPainkiller wu:painkillerDiclofenac .
