@@ -1,0 +1,539 @@
+@base <http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/> .
+@prefix wu: <http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# --- Side Effect Definitions ---
+wu:sideEffect_Death a wu:SideEffect; rdfs:label "Death"@en .
+wu:sideEffect_Leukoencephalopathy a wu:SideEffect; rdfs:label "Leukoencephalopathy"@en .
+wu:sideEffect_Peroneal_nerve_palsy a wu:SideEffect; rdfs:label "Peroneal nerve palsy"@en .
+wu:sideEffect_Mobility_decreased a wu:SideEffect; rdfs:label "Mobility decreased"@en .
+wu:sideEffect_Sensory_loss a wu:SideEffect; rdfs:label "Sensory loss"@en .
+wu:sideEffect_Grand_mal_convulsion a wu:SideEffect; rdfs:label "Grand mal convulsion"@en .
+wu:sideEffect_Muscular_weakness a wu:SideEffect; rdfs:label "Muscular weakness"@en .
+wu:sideEffect_Drug_induced_liver_injury a wu:SideEffect; rdfs:label "Drug-induced liver injury"@en .
+wu:sideEffect_Intentional_overdose a wu:SideEffect; rdfs:label "Intentional overdose"@en .
+wu:sideEffect_Multi_organ_failure a wu:SideEffect; rdfs:label "Multi-organ failure"@en .
+wu:sideEffect_Suicide_attempt a wu:SideEffect; rdfs:label "Suicide attempt"@en .
+wu:sideEffect_Shock a wu:SideEffect; rdfs:label "Shock"@en .
+wu:sideEffect_Hepatitis_fulminant a wu:SideEffect; rdfs:label "Hepatitis fulminant"@en .
+wu:sideEffect_Incorrect_dose_administered a wu:SideEffect; rdfs:label "Incorrect dose administered"@en .
+wu:sideEffect_Lobar_pneumonia a wu:SideEffect; rdfs:label "Lobar pneumonia"@en .
+wu:sideEffect_Pulmonary_haemorrhage a wu:SideEffect; rdfs:label "Pulmonary haemorrhage"@en .
+wu:sideEffect_Haemorrhagic_erosive_gastritis a wu:SideEffect; rdfs:label "Haemorrhagic erosive gastritis"@en .
+wu:sideEffect_Prostate_cancer_metastatic a wu:SideEffect; rdfs:label "Prostate cancer metastatic"@en .
+wu:sideEffect_Posterior_reversible_encephalopathy_syndrome a wu:SideEffect; rdfs:label "Posterior reversible encephalopathy syndrome"@en .
+wu:sideEffect_Cerebral_infarction a wu:SideEffect; rdfs:label "Cerebral infarction"@en .
+wu:sideEffect_Cerebral_microhaemorrhage a wu:SideEffect; rdfs:label "Cerebral microhaemorrhage"@en .
+wu:sideEffect_Cardio_respiratory_arrest a wu:SideEffect; rdfs:label "Cardio-respiratory arrest"@en .
+wu:sideEffect_Respiratory_failure a wu:SideEffect; rdfs:label "Respiratory failure"@en .
+wu:sideEffect_Pancreatitis a wu:SideEffect; rdfs:label "Pancreatitis"@en .
+wu:sideEffect_Dry_mouth a wu:SideEffect; rdfs:label "Dry mouth"@en .
+wu:sideEffect_Somnolence a wu:SideEffect; rdfs:label "Somnolence"@en .
+wu:sideEffect_Prostatic_specific_antigen_increased a wu:SideEffect; rdfs:label "Prostatic specific antigen increased"@en .
+wu:sideEffect_Decreased_appetite a wu:SideEffect; rdfs:label "Decreased appetite"@en .
+wu:sideEffect_Peripheral_swelling a wu:SideEffect; rdfs:label "Peripheral swelling"@en .
+wu:sideEffect_Hepatic_failure a wu:SideEffect; rdfs:label "Hepatic failure"@en .
+wu:sideEffect_Fatigue a wu:SideEffect; rdfs:label "Fatigue"@en .
+wu:sideEffect_Cardiomyopathy a wu:SideEffect; rdfs:label "Cardiomyopathy"@en .
+wu:sideEffect_Cardiac_arrest a wu:SideEffect; rdfs:label "Cardiac arrest"@en .
+wu:sideEffect_Lymphoma a wu:SideEffect; rdfs:label "Lymphoma"@en .
+wu:sideEffect_Staphylococcal_infection a wu:SideEffect; rdfs:label "Staphylococcal infection"@en .
+wu:sideEffect_Intestinal_obstruction a wu:SideEffect; rdfs:label "Intestinal obstruction"@en .
+wu:sideEffect_Phobia a wu:SideEffect; rdfs:label "Phobia"@en .
+wu:sideEffect_Metastases_to_lung a wu:SideEffect; rdfs:label "Metastases to lung"@en .
+wu:sideEffect_Metastases_to_pleura a wu:SideEffect; rdfs:label "Metastases to pleura"@en .
+wu:sideEffect_Abdominal_neoplasm a wu:SideEffect; rdfs:label "Abdominal neoplasm"@en .
+wu:sideEffect_Atrial_fibrillation a wu:SideEffect; rdfs:label "Atrial fibrillation"@en .
+wu:sideEffect_Swelling a wu:SideEffect; rdfs:label "Swelling"@en .
+wu:sideEffect_Loss_of_consciousness a wu:SideEffect; rdfs:label "Loss of consciousness"@en .
+wu:sideEffect_Neoplasm_malignant a wu:SideEffect; rdfs:label "Neoplasm malignant"@en .
+wu:sideEffect_Dyspnoea a wu:SideEffect; rdfs:label "Dyspnoea"@en .
+wu:sideEffect_Miosis a wu:SideEffect; rdfs:label "Miosis"@en .
+wu:sideEffect_Renal_impairment a wu:SideEffect; rdfs:label "Renal impairment"@en .
+wu:sideEffect_Lung_infection a wu:SideEffect; rdfs:label "Lung infection"@en .
+wu:sideEffect_Pyrexia a wu:SideEffect; rdfs:label "Pyrexia"@en .
+wu:sideEffect_Metastases_to_liver a wu:SideEffect; rdfs:label "Metastases to liver"@en .
+wu:sideEffect_Dysphagia a wu:SideEffect; rdfs:label "Dysphagia"@en .
+wu:sideEffect_Neoplasm a wu:SideEffect; rdfs:label "Neoplasm"@en .
+wu:sideEffect_Renal_failure a wu:SideEffect; rdfs:label "Renal failure"@en .
+wu:sideEffect_Condition_aggravated a wu:SideEffect; rdfs:label "Condition aggravated"@en .
+wu:sideEffect_Urinary_tract_infection a wu:SideEffect; rdfs:label "Urinary tract infection"@en .
+wu:sideEffect_Hypophagia a wu:SideEffect; rdfs:label "Hypophagia"@en .
+wu:sideEffect_Hand_fracture a wu:SideEffect; rdfs:label "Hand fracture"@en .
+wu:sideEffect_Nasal_pruritus a wu:SideEffect; rdfs:label "Nasal pruritus"@en .
+wu:sideEffect_Blood_pressure_decreased a wu:SideEffect; rdfs:label "Blood pressure decreased"@en .
+wu:sideEffect_Dyspepsia a wu:SideEffect; rdfs:label "Dyspepsia"@en .
+wu:sideEffect_Influenza a wu:SideEffect; rdfs:label "Influenza"@en .
+wu:sideEffect_Malaise a wu:SideEffect; rdfs:label "Malaise"@en .
+wu:sideEffect_Syncope a wu:SideEffect; rdfs:label "Syncope"@en .
+wu:sideEffect_Nasopharyngitis a wu:SideEffect; rdfs:label "Nasopharyngitis"@en .
+wu:sideEffect_Hypersensitivity a wu:SideEffect; rdfs:label "Hypersensitivity"@en .
+wu:sideEffect_Diarrhoea a wu:SideEffect; rdfs:label "Diarrhoea"@en .
+wu:sideEffect_Respiratory_arrest a wu:SideEffect; rdfs:label "Respiratory arrest"@en .
+wu:sideEffect_Asthenia a wu:SideEffect; rdfs:label "Asthenia"@en .
+wu:sideEffect_Pruritus a wu:SideEffect; rdfs:label "Pruritus"@en .
+wu:sideEffect_Confusional_state a wu:SideEffect; rdfs:label "Confusional state"@en .
+wu:sideEffect_Nausea a wu:SideEffect; rdfs:label "Nausea"@en .
+wu:sideEffect_Vomiting a wu:SideEffect; rdfs:label "Vomiting"@en .
+wu:sideEffect_Throat_irritation a wu:SideEffect; rdfs:label "Throat irritation"@en .
+wu:sideEffect_Sepsis a wu:SideEffect; rdfs:label "Sepsis"@en .
+wu:sideEffect_Toxic_epidermal_necrolysis a wu:SideEffect; rdfs:label "Toxic epidermal necrolysis"@en .
+wu:sideEffect_Distributive_shock a wu:SideEffect; rdfs:label "Distributive shock"@en .
+wu:sideEffect_Stevens_Johnson_syndrome a wu:SideEffect; rdfs:label "Stevens-Johnson syndrome"@en .
+wu:sideEffect_Thrombotic_microangiopathy a wu:SideEffect; rdfs:label "Thrombotic microangiopathy"@en .
+wu:sideEffect_Mental_status_changes a wu:SideEffect; rdfs:label "Mental status changes"@en .
+wu:sideEffect_Stem_cell_transplant a wu:SideEffect; rdfs:label "Stem cell transplant"@en .
+wu:sideEffect_Graft_versus_host_disease a wu:SideEffect; rdfs:label "Graft versus host disease"@en .
+wu:sideEffect_Drug_administration_error a wu:SideEffect; rdfs:label "Drug administration error"@en .
+wu:sideEffect_Respiratory_distress a wu:SideEffect; rdfs:label "Respiratory distress"@en .
+wu:sideEffect_Anaemia a wu:SideEffect; rdfs:label "Anaemia"@en .
+wu:sideEffect_Haematochezia a wu:SideEffect; rdfs:label "Haematochezia"@en .
+wu:sideEffect_Blood_urine_present a wu:SideEffect; rdfs:label "Blood urine present"@en .
+wu:sideEffect_Unresponsive_to_stimuli a wu:SideEffect; rdfs:label "Unresponsive to stimuli"@en .
+wu:sideEffect_Haemoglobin_decreased a wu:SideEffect; rdfs:label "Haemoglobin decreased"@en .
+wu:sideEffect_Abdominal_pain a wu:SideEffect; rdfs:label "Abdominal pain"@en .
+wu:sideEffect_Infection a wu:SideEffect; rdfs:label "Infection"@en .
+wu:sideEffect_Neutropenia a wu:SideEffect; rdfs:label "Neutropenia"@en .
+wu:sideEffect_White_blood_cell_count_decreased a wu:SideEffect; rdfs:label "White blood cell count decreased"@en .
+wu:sideEffect_Subdural_haemorrhage a wu:SideEffect; rdfs:label "Subdural haemorrhage"@en .
+wu:sideEffect_Brain_stem_haemorrhage a wu:SideEffect; rdfs:label "Brain stem haemorrhage"@en .
+wu:sideEffect_Haematemesis a wu:SideEffect; rdfs:label "Haematemesis"@en .
+wu:sideEffect_Apnoea a wu:SideEffect; rdfs:label "Apnoea"@en .
+wu:sideEffect_Cerebral_haemorrhage a wu:SideEffect; rdfs:label "Cerebral haemorrhage"@en .
+wu:sideEffect_Chronic_obstructive_pulmonary_disease a wu:SideEffect; rdfs:label "Chronic obstructive pulmonary disease"@en .
+wu:sideEffect_Sudden_cardiac_death a wu:SideEffect; rdfs:label "Sudden cardiac death"@en .
+wu:sideEffect_Aspergillus_test_positive a wu:SideEffect; rdfs:label "Aspergillus test positive"@en .
+wu:sideEffect_Staphylococcus_test_positive a wu:SideEffect; rdfs:label "Staphylococcus test positive"@en .
+wu:sideEffect_Mycobacterium_avium_complex_infection a wu:SideEffect; rdfs:label "Mycobacterium avium complex infection"@en .
+wu:sideEffect_Acute_respiratory_distress_syndrome a wu:SideEffect; rdfs:label "Acute respiratory distress syndrome"@en .
+wu:sideEffect_Hyperthyroidism a wu:SideEffect; rdfs:label "Hyperthyroidism"@en .
+wu:sideEffect_Pulmonary_toxicity a wu:SideEffect; rdfs:label "Pulmonary toxicity"@en .
+wu:sideEffect_Organising_pneumonia a wu:SideEffect; rdfs:label "Organising pneumonia"@en .
+wu:sideEffect_Cough a wu:SideEffect; rdfs:label "Cough"@en .
+wu:sideEffect_Weight_decreased a wu:SideEffect; rdfs:label "Weight decreased"@en .
+wu:sideEffect_Haemoptysis a wu:SideEffect; rdfs:label "Haemoptysis"@en .
+wu:sideEffect_Bronchopneumonia a wu:SideEffect; rdfs:label "Bronchopneumonia"@en .
+wu:sideEffect_Hip_fracture a wu:SideEffect; rdfs:label "Hip fracture"@en .
+wu:sideEffect_Angina_pectoris a wu:SideEffect; rdfs:label "Angina pectoris"@en .
+wu:sideEffect_Dementia a wu:SideEffect; rdfs:label "Dementia"@en .
+wu:sideEffect_Cardiac_failure_congestive a wu:SideEffect; rdfs:label "Cardiac failure congestive"@en .
+wu:sideEffect_Emotional_disorder a wu:SideEffect; rdfs:label "Emotional disorder"@en .
+wu:sideEffect_Chest_pain a wu:SideEffect; rdfs:label "Chest pain"@en .
+wu:sideEffect_Oedema a wu:SideEffect; rdfs:label "Oedema"@en .
+wu:sideEffect_Cardiovascular_disorder a wu:SideEffect; rdfs:label "Cardiovascular disorder"@en .
+wu:sideEffect_Weight_increased a wu:SideEffect; rdfs:label "Weight increased"@en .
+wu:sideEffect_Brain_hypoxia a wu:SideEffect; rdfs:label "Brain hypoxia"@en .
+wu:sideEffect_Toxicity_to_various_agents a wu:SideEffect; rdfs:label "Toxicity to various agents"@en .
+wu:sideEffect_Drug_abuse a wu:SideEffect; rdfs:label "Drug abuse"@en .
+wu:sideEffect_Hepatic_lesion a wu:SideEffect; rdfs:label "Hepatic lesion"@en .
+wu:sideEffect_Coma a wu:SideEffect; rdfs:label "Coma"@en .
+wu:sideEffect_Epilepsy a wu:SideEffect; rdfs:label "Epilepsy"@en .
+wu:sideEffect_Renal_disorder a wu:SideEffect; rdfs:label "Renal disorder"@en .
+wu:sideEffect_Urinary_tract_disorder a wu:SideEffect; rdfs:label "Urinary tract disorder"@en .
+wu:sideEffect_Blood_creatinine_increased a wu:SideEffect; rdfs:label "Blood creatinine increased"@en .
+wu:sideEffect_Tuberculosis a wu:SideEffect; rdfs:label "Tuberculosis"@en .
+wu:sideEffect_Liver_disorder a wu:SideEffect; rdfs:label "Liver disorder"@en .
+wu:sideEffect_Campylobacter_gastroenteritis a wu:SideEffect; rdfs:label "Campylobacter gastroenteritis"@en .
+wu:sideEffect_Renal_failure_acute a wu:SideEffect; rdfs:label "Renal failure acute"@en .
+wu:sideEffect_Pneumonia_influenzal a wu:SideEffect; rdfs:label "Pneumonia influenzal"@en .
+wu:sideEffect_Oedema_peripheral a wu:SideEffect; rdfs:label "Oedema peripheral"@en .
+wu:sideEffect_Convulsion a wu:SideEffect; rdfs:label "Convulsion"@en .
+wu:sideEffect_Hepatitis_acute a wu:SideEffect; rdfs:label "Hepatitis acute"@en .
+wu:sideEffect_Urosepsis a wu:SideEffect; rdfs:label "Urosepsis"@en .
+wu:sideEffect_Cardiopulmonary_failure a wu:SideEffect; rdfs:label "Cardiopulmonary failure"@en .
+wu:sideEffect_Congestive_cardiomyopathy a wu:SideEffect; rdfs:label "Congestive cardiomyopathy"@en .
+wu:sideEffect_Ejection_fraction_decreased a wu:SideEffect; rdfs:label "Ejection fraction decreased"@en .
+wu:sideEffect_General_physical_condition_abnormal a wu:SideEffect; rdfs:label "General physical condition abnormal"@en .
+wu:sideEffect_Infusion_related_reaction a wu:SideEffect; rdfs:label "Infusion related reaction"@en .
+wu:sideEffect_Hyperkalaemia a wu:SideEffect; rdfs:label "Hyperkalaemia"@en .
+wu:sideEffect_Areflexia a wu:SideEffect; rdfs:label "Areflexia"@en .
+wu:sideEffect_Tachypnoea a wu:SideEffect; rdfs:label "Tachypnoea"@en .
+wu:sideEffect_Hypokinesia a wu:SideEffect; rdfs:label "Hypokinesia"@en .
+wu:sideEffect_Left_ventricular_dysfunction a wu:SideEffect; rdfs:label "Left ventricular dysfunction"@en .
+wu:sideEffect_Lactic_acidosis a wu:SideEffect; rdfs:label "Lactic acidosis"@en .
+wu:sideEffect_Metabolic_acidosis a wu:SideEffect; rdfs:label "Metabolic acidosis"@en .
+wu:sideEffect_Ventricular_fibrillation a wu:SideEffect; rdfs:label "Ventricular fibrillation"@en .
+wu:sideEffect_Coagulopathy a wu:SideEffect; rdfs:label "Coagulopathy"@en .
+wu:sideEffect_Thrombocytopenia a wu:SideEffect; rdfs:label "Thrombocytopenia"@en .
+wu:sideEffect_Blister a wu:SideEffect; rdfs:label "Blister"@en .
+wu:sideEffect_Septic_shock a wu:SideEffect; rdfs:label "Septic shock"@en .
+wu:sideEffect_Upper_gastrointestinal_haemorrhage a wu:SideEffect; rdfs:label "Upper gastrointestinal haemorrhage"@en .
+wu:sideEffect_Drug_dependence a wu:SideEffect; rdfs:label "Drug dependence"@en .
+wu:sideEffect_Substance_abuse a wu:SideEffect; rdfs:label "Substance abuse"@en .
+wu:sideEffect_Drug_ineffective a wu:SideEffect; rdfs:label "Drug ineffective"@en .
+wu:sideEffect_Myocardial_infarction a wu:SideEffect; rdfs:label "Myocardial infarction"@en .
+wu:sideEffect_Hypotension a wu:SideEffect; rdfs:label "Hypotension"@en .
+wu:sideEffect_Anaphylactic_reaction a wu:SideEffect; rdfs:label "Anaphylactic reaction"@en .
+wu:sideEffect_Lethargy a wu:SideEffect; rdfs:label "Lethargy"@en .
+wu:sideEffect_Respiration_abnormal a wu:SideEffect; rdfs:label "Respiration abnormal"@en .
+wu:sideEffect_Cerebrovascular_disorder a wu:SideEffect; rdfs:label "Cerebrovascular disorder"@en .
+wu:sideEffect_Pulmonary_embolism a wu:SideEffect; rdfs:label "Pulmonary embolism"@en .
+wu:sideEffect_Cerebrovascular_accident a wu:SideEffect; rdfs:label "Cerebrovascular accident"@en .
+wu:sideEffect_Deep_vein_thrombosis a wu:SideEffect; rdfs:label "Deep vein thrombosis"@en .
+wu:sideEffect_Dermatitis_acneiform a wu:SideEffect; rdfs:label "Dermatitis acneiform"@en .
+wu:sideEffect_Metastases_to_bone a wu:SideEffect; rdfs:label "Metastases to bone"@en .
+wu:sideEffect_Ovarian_cancer a wu:SideEffect; rdfs:label "Ovarian cancer"@en .
+wu:sideEffect_Febrile_neutropenia a wu:SideEffect; rdfs:label "Febrile neutropenia"@en .
+wu:sideEffect_Musculoskeletal_pain a wu:SideEffect; rdfs:label "Musculoskeletal pain"@en .
+wu:sideEffect_Fungal_infection a wu:SideEffect; rdfs:label "Fungal infection"@en .
+wu:sideEffect_Oropharyngeal_candidiasis a wu:SideEffect; rdfs:label "Oropharyngeal candidiasis"@en .
+wu:sideEffect_Arrhythmia a wu:SideEffect; rdfs:label "Arrhythmia"@en .
+wu:sideEffect_Cardiac_failure a wu:SideEffect; rdfs:label "Cardiac failure"@en .
+wu:sideEffect_Overdose a wu:SideEffect; rdfs:label "Overdose"@en .
+
+
+# --- Patient Definitions ---
+wu:patient_for_report_10004703 a wu:Patient;
+  wu:isPatientInReport wu:report_10004703;
+  wu:patientAge 41;
+  wu:patientSex "Male"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Death .
+
+wu:patient_for_report_10005839 a wu:Patient;
+  wu:isPatientInReport wu:report_10005839;
+  wu:patientAge 69;
+  wu:patientSex "Female"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Leukoencephalopathy, wu:sideEffect_Peroneal_nerve_palsy, wu:sideEffect_Mobility_decreased, wu:sideEffect_Sensory_loss, wu:sideEffect_Grand_mal_convulsion, wu:sideEffect_Muscular_weakness .
+
+wu:patient_for_report_10005867 a wu:Patient;
+  wu:isPatientInReport wu:report_10005867;
+  wu:patientAge 59;
+  wu:patientSex "Male"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Drug_induced_liver_injury .
+
+wu:patient_for_report_10005882 a wu:Patient;
+  wu:isPatientInReport wu:report_10005882;
+  wu:patientAge 41;
+  wu:patientSex "Male"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Intentional_overdose, wu:sideEffect_Multi_organ_failure, wu:sideEffect_Suicide_attempt .
+
+wu:patient_for_report_10006980 a wu:Patient;
+  wu:isPatientInReport wu:report_10006980;
+  wu:patientAge 68;
+  wu:patientSex "Male"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Shock, wu:sideEffect_Hepatitis_fulminant, wu:sideEffect_Incorrect_dose_administered .
+
+wu:patient_for_report_10009393 a wu:Patient;
+  wu:isPatientInReport wu:report_10009393;
+  wu:patientAge 63;
+  wu:patientSex "Male"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Lobar_pneumonia .
+
+wu:patient_for_report_10012654 a wu:Patient;
+  wu:isPatientInReport wu:report_10012654;
+  wu:patientAge 13;
+  wu:patientSex "Female"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Pulmonary_haemorrhage, wu:sideEffect_Haemorrhagic_erosive_gastritis .
+
+wu:patient_for_report_10016161 a wu:Patient;
+  wu:isPatientInReport wu:report_10016161;
+  wu:patientAge 13;
+  wu:patientSex "Female"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Pulmonary_haemorrhage, wu:sideEffect_Haemorrhagic_erosive_gastritis .
+
+wu:patient_for_report_10018629 a wu:Patient;
+  wu:isPatientInReport wu:report_10018629;
+  wu:patientAge 80;
+  wu:patientSex "Male"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Prostate_cancer_metastatic .
+
+wu:patient_for_report_10019150 a wu:Patient;
+  wu:isPatientInReport wu:report_10019150;
+  wu:patientAge 55;
+  wu:patientSex "Female"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Posterior_reversible_encephalopathy_syndrome, wu:sideEffect_Cerebral_infarction, wu:sideEffect_Cerebral_microhaemorrhage .
+
+wu:patient_for_report_10139735 a wu:Patient;
+  wu:isPatientInReport wu:report_10139735;
+  wu:patientAge 16;
+  wu:patientSex "Male"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Cardio_respiratory_arrest, wu:sideEffect_Respiratory_failure, wu:sideEffect_Drug_induced_liver_injury, wu:sideEffect_Pancreatitis .
+
+wu:patient_for_report_10246041 a wu:Patient;
+  wu:isPatientInReport wu:report_10246041;
+  wu:patientAge 61;
+  wu:patientSex "Male"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Death, wu:sideEffect_Dry_mouth, wu:sideEffect_Somnolence, wu:sideEffect_Prostatic_specific_antigen_increased, wu:sideEffect_Decreased_appetite, wu:sideEffect_Peripheral_swelling .
+
+wu:patient_for_report_10246741 a wu:Patient;
+  wu:isPatientInReport wu:report_10246741;
+  wu:patientAge 24;
+  wu:patientSex "Female"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Hepatic_failure .
+
+wu:patient_for_report_10265582 a wu:Patient;
+  wu:isPatientInReport wu:report_10265582;
+  wu:patientAge 24;
+  wu:patientSex "Female"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Hepatic_failure .
+
+wu:patient_for_report_10402554 a wu:Patient;
+  wu:isPatientInReport wu:report_10402554;
+  wu:patientAge 60;
+  wu:patientSex "Female"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Fatigue .
+
+wu:patient_for_report_10451788 a wu:Patient;
+  wu:isPatientInReport wu:report_10451788;
+  wu:patientAge 77;
+  wu:patientSex "Female"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Cardiomyopathy, wu:sideEffect_Cardiac_arrest, wu:sideEffect_Lymphoma, wu:sideEffect_Staphylococcal_infection, wu:sideEffect_Intestinal_obstruction, wu:sideEffect_Phobia, wu:sideEffect_Metastases_to_lung, wu:sideEffect_Metastases_to_pleura, wu:sideEffect_Abdominal_neoplasm, wu:sideEffect_Atrial_fibrillation, wu:sideEffect_Swelling, wu:sideEffect_Loss_of_consciousness, wu:sideEffect_Neoplasm_malignant, wu:sideEffect_Dyspnoea, wu:sideEffect_Miosis, wu:sideEffect_Renal_impairment .
+
+wu:patient_for_report_10565341 a wu:Patient;
+  wu:isPatientInReport wu:report_10565341;
+  wu:patientAge 81;
+  wu:patientSex "Female"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Respiratory_failure, wu:sideEffect_Lung_infection, wu:sideEffect_Pyrexia, wu:sideEffect_Metastases_to_liver, wu:sideEffect_Dysphagia, wu:sideEffect_Neoplasm, wu:sideEffect_Renal_failure, wu:sideEffect_Condition_aggravated, wu:sideEffect_Metastases_to_lung, wu:sideEffect_Urinary_tract_infection .
+
+wu:patient_for_report_10663808 a wu:Patient;
+  wu:isPatientInReport wu:report_10663808;
+  wu:patientAge 59;
+  wu:patientSex "Male"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Hypophagia, wu:sideEffect_Hand_fracture, wu:sideEffect_Nasal_pruritus, wu:sideEffect_Blood_pressure_decreased, wu:sideEffect_Cardiac_arrest, wu:sideEffect_Dyspepsia, wu:sideEffect_Influenza, wu:sideEffect_Malaise, wu:sideEffect_Syncope, wu:sideEffect_Nasopharyngitis, wu:sideEffect_Hypersensitivity, wu:sideEffect_Diarrhoea, wu:sideEffect_Respiratory_arrest, wu:sideEffect_Asthenia, wu:sideEffect_Pruritus, wu:sideEffect_Confusional_state, wu:sideEffect_Nausea, wu:sideEffect_Vomiting, wu:sideEffect_Throat_irritation .
+
+wu:patient_for_report_10687131 a wu:Patient;
+  wu:isPatientInReport wu:report_10687131;
+  wu:patientAge 12;
+  wu:patientSex "Female"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Sepsis, wu:sideEffect_Toxic_epidermal_necrolysis, wu:sideEffect_Distributive_shock .
+
+wu:patient_for_report_10688742 a wu:Patient;
+  wu:isPatientInReport wu:report_10688742;
+  wu:patientAge 54;
+  wu:patientSex "Female"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Cardiac_arrest, wu:sideEffect_Stevens_Johnson_syndrome .
+
+wu:patient_for_report_10004186 a wu:Patient;
+  wu:isPatientInReport wu:report_10004186;
+  wu:patientAge 67;
+  wu:patientSex "Male"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Thrombotic_microangiopathy, wu:sideEffect_Renal_impairment, wu:sideEffect_Hepatic_failure, wu:sideEffect_Mental_status_changes, wu:sideEffect_Stem_cell_transplant, wu:sideEffect_Graft_versus_host_disease, wu:sideEffect_Fatigue, wu:sideEffect_Drug_administration_error .
+
+wu:patient_for_report_10006049 a wu:Patient;
+  wu:isPatientInReport wu:report_10006049;
+  wu:patientAge 67;
+  wu:patientSex "Male"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Death, wu:sideEffect_Respiratory_distress, wu:sideEffect_Anaemia, wu:sideEffect_Haematochezia .
+
+wu:patient_for_report_10006071 a wu:Patient;
+  wu:isPatientInReport wu:report_10006071;
+  wu:patientAge 81;
+  wu:patientSex "Male"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Cardiac_arrest, wu:sideEffect_Blood_urine_present, wu:sideEffect_Unresponsive_to_stimuli, wu:sideEffect_Blood_pressure_decreased, wu:sideEffect_Haemoglobin_decreased, wu:sideEffect_Abdominal_pain .
+
+wu:patient_for_report_10006117 a wu:Patient;
+  wu:isPatientInReport wu:report_10006117;
+  wu:patientAge 67;
+  wu:patientSex "Female"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Infection, wu:sideEffect_Neutropenia, wu:sideEffect_White_blood_cell_count_decreased .
+
+wu:patient_for_report_10006156 a wu:Patient;
+  wu:isPatientInReport wu:report_10006156;
+  wu:patientAge 73;
+  wu:patientSex "Male"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Death .
+
+wu:patient_for_report_10008011 a wu:Patient;
+  wu:isPatientInReport wu:report_10008011;
+  wu:patientAge 67;
+  wu:patientSex "Female"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Subdural_haemorrhage, wu:sideEffect_Brain_stem_haemorrhage, wu:sideEffect_Haematemesis, wu:sideEffect_Apnoea .
+
+wu:patient_for_report_10009500 a wu:Patient;
+  wu:isPatientInReport wu:report_10009500;
+  wu:patientAge 85;
+  wu:patientSex "Female"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Cerebral_haemorrhage .
+
+wu:patient_for_report_10011700 a wu:Patient;
+  wu:isPatientInReport wu:report_10011700;
+  wu:patientAge 59;
+  wu:patientSex "Male"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Chronic_obstructive_pulmonary_disease .
+
+wu:patient_for_report_10012210 a wu:Patient;
+  wu:isPatientInReport wu:report_10012210;
+  wu:patientAge 65;
+  wu:patientSex "Male"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Sudden_cardiac_death, wu:sideEffect_Aspergillus_test_positive, wu:sideEffect_Staphylococcus_test_positive, wu:sideEffect_Mycobacterium_avium_complex_infection, wu:sideEffect_Acute_respiratory_distress_syndrome, wu:sideEffect_Hyperthyroidism, wu:sideEffect_Pulmonary_toxicity, wu:sideEffect_Organising_pneumonia, wu:sideEffect_Pyrexia, wu:sideEffect_Cough, wu:sideEffect_Dyspnoea, wu:sideEffect_Weight_decreased, wu:sideEffect_Haemoptysis, wu:sideEffect_Asthenia .
+
+wu:patient_for_report_10012534 a wu:Patient;
+  wu:isPatientInReport wu:report_10012534;
+  wu:patientAge 87;
+  wu:patientSex "Male"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Cerebral_haemorrhage .
+
+wu:patient_for_report_10032581 a wu:Patient;
+  wu:isPatientInReport wu:report_10032581;
+  wu:patientAge 78;
+  wu:patientSex "Female"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Bronchopneumonia, wu:sideEffect_Respiratory_failure, wu:sideEffect_Hip_fracture, wu:sideEffect_Angina_pectoris, wu:sideEffect_Dementia, wu:sideEffect_Cardiac_failure_congestive, wu:sideEffect_Emotional_disorder, wu:sideEffect_Chest_pain, wu:sideEffect_Oedema, wu:sideEffect_Cardiovascular_disorder, wu:sideEffect_Weight_increased, wu:sideEffect_Brain_hypoxia .
+
+wu:patient_for_report_10034102 a wu:Patient;
+  wu:isPatientInReport wu:report_10034102;
+  wu:patientAge 42;
+  wu:patientSex "Female"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Toxicity_to_various_agents .
+
+wu:patient_for_report_10034132 a wu:Patient;
+  wu:isPatientInReport wu:report_10034132;
+  wu:patientAge 58;
+  wu:patientSex "Male"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Toxicity_to_various_agents .
+
+wu:patient_for_report_10034160 a wu:Patient;
+  wu:isPatientInReport wu:report_10034160;
+  wu:patientAge 81;
+  wu:patientSex "Male"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Toxicity_to_various_agents .
+
+wu:patient_for_report_10034741 a wu:Patient;
+  wu:isPatientInReport wu:report_10034741;
+  wu:patientAge 22;
+  wu:patientSex "Female"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Toxicity_to_various_agents .
+
+wu:patient_for_report_10034759 a wu:Patient;
+  wu:isPatientInReport wu:report_10034759;
+  wu:patientAge 26;
+  wu:patientSex "Female"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Toxicity_to_various_agents .
+
+wu:patient_for_report_10034848 a wu:Patient;
+  wu:isPatientInReport wu:report_10034848;
+  wu:patientAge 56;
+  wu:patientSex "Female"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Toxicity_to_various_agents .
+
+wu:patient_for_report_10034886 a wu:Patient;
+  wu:isPatientInReport wu:report_10034886;
+  wu:patientAge 42;
+  wu:patientSex "Male"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Toxicity_to_various_agents .
+
+wu:patient_for_report_10034910 a wu:Patient;
+  wu:isPatientInReport wu:report_10034910;
+  wu:patientAge 41;
+  wu:patientSex "Male"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Toxicity_to_various_agents, wu:sideEffect_Drug_abuse .
+
+wu:patient_for_report_10034930 a wu:Patient;
+  wu:isPatientInReport wu:report_10034930;
+  wu:patientAge 81;
+  wu:patientSex "Male"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Toxicity_to_various_agents .
+
+wu:patient_for_report_10015853 a wu:Patient;
+  wu:isPatientInReport wu:report_10015853;
+  wu:patientAge 74;
+  wu:patientSex "Female"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Hepatic_lesion, wu:sideEffect_Coma, wu:sideEffect_Epilepsy, wu:sideEffect_Renal_disorder, wu:sideEffect_Urinary_tract_disorder, wu:sideEffect_Blood_creatinine_increased, wu:sideEffect_Diarrhoea .
+
+wu:patient_for_report_10016713 a wu:Patient;
+  wu:isPatientInReport wu:report_10016713;
+  wu:patientAge 65;
+  wu:patientSex "Male"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Hepatic_failure, wu:sideEffect_Tuberculosis, wu:sideEffect_Liver_disorder, wu:sideEffect_Drug_abuse .
+
+wu:patient_for_report_10027373 a wu:Patient;
+  wu:isPatientInReport wu:report_10027373;
+  wu:patientAge 71;
+  wu:patientSex "Female"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Campylobacter_gastroenteritis, wu:sideEffect_Renal_failure_acute, wu:sideEffect_Pneumonia_influenzal .
+
+wu:patient_for_report_10027655 a wu:Patient;
+  wu:isPatientInReport wu:report_10027655;
+  wu:patientAge 49;
+  wu:patientSex "Female"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Death, wu:sideEffect_Oedema_peripheral .
+
+wu:patient_for_report_10029040 a wu:Patient;
+  wu:isPatientInReport wu:report_10029040;
+  wu:patientAge 58;
+  wu:patientSex "Male"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Sepsis .
+
+wu:patient_for_report_10033945 a wu:Patient;
+  wu:isPatientInReport wu:report_10033945;
+  wu:patientAge 35;
+  wu:patientSex "Female"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Toxicity_to_various_agents .
+
+wu:patient_for_report_10034217 a wu:Patient;
+  wu:isPatientInReport wu:report_10034217;
+  wu:patientAge 35;
+  wu:patientSex "Female"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Toxicity_to_various_agents .
+
+wu:patient_for_report_10036469 a wu:Patient;
+  wu:isPatientInReport wu:report_10036469;
+  wu:patientAge 72;
+  wu:patientSex "Male"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Hepatitis_acute, wu:sideEffect_Cardiac_arrest, wu:sideEffect_Convulsion .
+
+wu:patient_for_report_10043483 a wu:Patient;
+  wu:isPatientInReport wu:report_10043483;
+  wu:patientAge 50;
+  wu:patientSex "Female"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Renal_failure_acute, wu:sideEffect_Urosepsis, wu:sideEffect_Cardiopulmonary_failure, wu:sideEffect_Congestive_cardiomyopathy, wu:sideEffect_Ejection_fraction_decreased, wu:sideEffect_Dyspnoea, wu:sideEffect_Respiratory_failure, wu:sideEffect_General_physical_condition_abnormal, wu:sideEffect_Infection .
+
+wu:patient_for_report_10018114 a wu:Patient;
+  wu:isPatientInReport wu:report_10018114;
+  wu:patientAge 57;
+  wu:patientSex "Male"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Infusion_related_reaction .
+
+wu:patient_for_report_10039161 a wu:Patient;
+  wu:isPatientInReport wu:report_10039161;
+  wu:patientAge 26;
+  wu:patientSex "Male"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Hyperkalaemia, wu:sideEffect_Areflexia, wu:sideEffect_Muscular_weakness, wu:sideEffect_Tachypnoea, wu:sideEffect_Hypokinesia, wu:sideEffect_Left_ventricular_dysfunction, wu:sideEffect_Ejection_fraction_decreased, wu:sideEffect_Lactic_acidosis, wu:sideEffect_Metabolic_acidosis, wu:sideEffect_Ventricular_fibrillation, wu:sideEffect_Coagulopathy, wu:sideEffect_Thrombocytopenia, wu:sideEffect_Blister, wu:sideEffect_Sepsis, wu:sideEffect_Septic_shock, wu:sideEffect_Upper_gastrointestinal_haemorrhage, wu:sideEffect_Staphylococcal_infection, wu:sideEffect_Cardiac_arrest, wu:sideEffect_Drug_dependence, wu:sideEffect_Substance_abuse, wu:sideEffect_Drug_ineffective .
+
+wu:patient_for_report_10049839 a wu:Patient;
+  wu:isPatientInReport wu:report_10049839;
+  wu:patientAge 26;
+  wu:patientSex "Male"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Lactic_acidosis, wu:sideEffect_Drug_dependence, wu:sideEffect_Sepsis, wu:sideEffect_Metabolic_acidosis, wu:sideEffect_Thrombocytopenia, wu:sideEffect_Ventricular_fibrillation, wu:sideEffect_Drug_abuse, wu:sideEffect_Coagulopathy, wu:sideEffect_Hyperkalaemia .
+
+wu:patient_for_report_10049840 a wu:Patient;
+  wu:isPatientInReport wu:report_10049840;
+  wu:patientAge 26;
+  wu:patientSex "Male"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Hyperkalaemia, wu:sideEffect_Drug_abuse, wu:sideEffect_Drug_dependence, wu:sideEffect_Metabolic_acidosis, wu:sideEffect_Sepsis, wu:sideEffect_Coagulopathy, wu:sideEffect_Thrombocytopenia, wu:sideEffect_Ventricular_fibrillation, wu:sideEffect_Lactic_acidosis .
+
+wu:patient_for_report_10057848 a wu:Patient;
+  wu:isPatientInReport wu:report_10057848;
+  wu:patientAge 74;
+  wu:patientSex "Female"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Myocardial_infarction, wu:sideEffect_Respiratory_arrest, wu:sideEffect_Hypotension, wu:sideEffect_Anaphylactic_reaction, wu:sideEffect_Loss_of_consciousness, wu:sideEffect_Lethargy, wu:sideEffect_Respiration_abnormal .
+
+wu:patient_for_report_10094645 a wu:Patient;
+  wu:isPatientInReport wu:report_10094645;
+  wu:patientAge 48;
+  wu:patientSex "Female"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Cerebrovascular_disorder, wu:sideEffect_Pulmonary_embolism, wu:sideEffect_Cerebrovascular_accident, wu:sideEffect_Deep_vein_thrombosis, wu:sideEffect_Dermatitis_acneiform, wu:sideEffect_Metastases_to_bone .
+
+wu:patient_for_report_10136437 a wu:Patient;
+  wu:isPatientInReport wu:report_10136437;
+  wu:patientAge 69;
+  wu:patientSex "Female"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Death, wu:sideEffect_Respiratory_failure, wu:sideEffect_Ovarian_cancer .
+
+wu:patient_for_report_10149229 a wu:Patient;
+  wu:isPatientInReport wu:report_10149229;
+  wu:patientAge 70;
+  wu:patientSex "Female"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Febrile_neutropenia, wu:sideEffect_Musculoskeletal_pain, wu:sideEffect_Malaise, wu:sideEffect_Septic_shock, wu:sideEffect_Fungal_infection, wu:sideEffect_Oropharyngeal_candidiasis, wu:sideEffect_Fatigue, wu:sideEffect_Arrhythmia, wu:sideEffect_Respiratory_failure .
+
+wu:patient_for_report_10149854 a wu:Patient;
+  wu:isPatientInReport wu:report_10149854;
+  wu:patientAge 67;
+  wu:patientSex "Female"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Musculoskeletal_pain, wu:sideEffect_Cardiac_failure .
+
+wu:patient_for_report_10156492 a wu:Patient;
+  wu:isPatientInReport wu:report_10156492;
+  wu:patientAge 53;
+  wu:patientSex "Male"@en;
+  wu:patientExperiencedSideEffect wu:sideEffect_Overdose .

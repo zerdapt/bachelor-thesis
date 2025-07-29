@@ -1,0 +1,357 @@
+@base <http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/> .
+@prefix wu: <http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+wu:report_10004703 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-04-17"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerParacetamol;
+  wu:reportInvolvesPatient wu:patient_for_report_10004703 .
+
+wu:report_10005839 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-13"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerParacetamol;
+  wu:reportInvolvesPatient wu:patient_for_report_10005839 .
+
+wu:report_10005867 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-13"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerParacetamol;
+  wu:reportInvolvesPatient wu:patient_for_report_10005867 .
+
+wu:report_10005882 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-13"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerParacetamol;
+  wu:reportInvolvesPatient wu:patient_for_report_10005882 .
+
+wu:report_10006980 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-04-28"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerParacetamol;
+  wu:reportInvolvesPatient wu:patient_for_report_10006980 .
+
+wu:report_10009393 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-04-17"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerParacetamol;
+  wu:reportInvolvesPatient wu:patient_for_report_10009393 .
+
+wu:report_10012654 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2015-02-10"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerParacetamol;
+  wu:reportInvolvesPatient wu:patient_for_report_10012654 .
+
+wu:report_10016161 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2015-02-10"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerParacetamol;
+  wu:reportInvolvesPatient wu:patient_for_report_10016161 .
+
+wu:report_10018629 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-18"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerParacetamol, wu:painkillerIbuprofen;
+  wu:reportInvolvesPatient wu:patient_for_report_10018629 .
+
+wu:report_10019150 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-18"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerParacetamol;
+  wu:reportInvolvesPatient wu:patient_for_report_10019150 .
+
+wu:report_10139735 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2023-08-07"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerDipyrone;
+  wu:reportInvolvesPatient wu:patient_for_report_10139735 .
+
+wu:report_10246041 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-06-19"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerDipyrone;
+  wu:reportInvolvesPatient wu:patient_for_report_10246041 .
+
+wu:report_10246741 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-06-19"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerDipyrone;
+  wu:reportInvolvesPatient wu:patient_for_report_10246741 .
+
+wu:report_10265582 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-06-27"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerDipyrone;
+  wu:reportInvolvesPatient wu:patient_for_report_10265582 .
+
+wu:report_10402554 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2015-02-10"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerDipyrone;
+  wu:reportInvolvesPatient wu:patient_for_report_10402554 .
+
+wu:report_10451788 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-09-15"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerDipyrone;
+  wu:reportInvolvesPatient wu:patient_for_report_10451788 .
+
+wu:report_10565341 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-11-05"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerDipyrone;
+  wu:reportInvolvesPatient wu:patient_for_report_10565341 .
+
+wu:report_10663808 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2015-04-10"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerDipyrone;
+  wu:reportInvolvesPatient wu:patient_for_report_10663808 .
+
+wu:report_10687131 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2015-01-12"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerDipyrone;
+  wu:reportInvolvesPatient wu:patient_for_report_10687131 .
+
+wu:report_10688742 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2015-01-03"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerDipyrone;
+  wu:reportInvolvesPatient wu:patient_for_report_10688742 .
+
+wu:report_10004186 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-05-02"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerAspirin;
+  wu:reportInvolvesPatient wu:patient_for_report_10004186 .
+
+wu:report_10006049 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-17"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerAspirin;
+  wu:reportInvolvesPatient wu:patient_for_report_10006049 .
+
+wu:report_10006071 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-04-22"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerAspirin;
+  wu:reportInvolvesPatient wu:patient_for_report_10006071 .
+
+wu:report_10006117 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-24"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerAspirin;
+  wu:reportInvolvesPatient wu:patient_for_report_10006117 .
+
+wu:report_10006156 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-13"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerAspirin;
+  wu:reportInvolvesPatient wu:patient_for_report_10006156 .
+
+wu:report_10008011 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-21"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerAspirin;
+  wu:reportInvolvesPatient wu:patient_for_report_10008011 .
+
+wu:report_10009500 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-24"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerAspirin;
+  wu:reportInvolvesPatient wu:patient_for_report_10009500 .
+
+wu:report_10011700 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-14"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerAspirin;
+  wu:reportInvolvesPatient wu:patient_for_report_10011700 .
+
+wu:report_10012210 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-14"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerAspirin;
+  wu:reportInvolvesPatient wu:patient_for_report_10012210 .
+
+wu:report_10012534 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-14"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerAspirin;
+  wu:reportInvolvesPatient wu:patient_for_report_10012534 .
+
+wu:report_10032581 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-24"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerNaproxen;
+  wu:reportInvolvesPatient wu:patient_for_report_10032581 .
+
+wu:report_10034102 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-25"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerNaproxen;
+  wu:reportInvolvesPatient wu:patient_for_report_10034102 .
+
+wu:report_10034132 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-25"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerNaproxen;
+  wu:reportInvolvesPatient wu:patient_for_report_10034132 .
+
+wu:report_10034160 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-25"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerNaproxen;
+  wu:reportInvolvesPatient wu:patient_for_report_10034160 .
+
+wu:report_10034741 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-25"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerNaproxen;
+  wu:reportInvolvesPatient wu:patient_for_report_10034741 .
+
+wu:report_10034759 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-25"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerNaproxen;
+  wu:reportInvolvesPatient wu:patient_for_report_10034759 .
+
+wu:report_10034848 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-25"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerNaproxen;
+  wu:reportInvolvesPatient wu:patient_for_report_10034848 .
+
+wu:report_10034886 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-25"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerNaproxen;
+  wu:reportInvolvesPatient wu:patient_for_report_10034886 .
+
+wu:report_10034910 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-25"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerNaproxen;
+  wu:reportInvolvesPatient wu:patient_for_report_10034910 .
+
+wu:report_10034930 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-25"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerNaproxen;
+  wu:reportInvolvesPatient wu:patient_for_report_10034930 .
+
+wu:report_10015853 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-17"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerIbuprofen;
+  wu:reportInvolvesPatient wu:patient_for_report_10015853 .
+
+wu:report_10016713 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-18"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerIbuprofen;
+  wu:reportInvolvesPatient wu:patient_for_report_10016713 .
+
+wu:report_10027373 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-21"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerIbuprofen;
+  wu:reportInvolvesPatient wu:patient_for_report_10027373 .
+
+wu:report_10027655 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-28"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerIbuprofen;
+  wu:reportInvolvesPatient wu:patient_for_report_10027655 .
+
+wu:report_10029040 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-21"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerIbuprofen;
+  wu:reportInvolvesPatient wu:patient_for_report_10029040 .
+
+wu:report_10033945 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-25"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerIbuprofen;
+  wu:reportInvolvesPatient wu:patient_for_report_10033945 .
+
+wu:report_10034217 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-25"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerIbuprofen;
+  wu:reportInvolvesPatient wu:patient_for_report_10034217 .
+
+wu:report_10036469 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-26"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerIbuprofen;
+  wu:reportInvolvesPatient wu:patient_for_report_10036469 .
+
+wu:report_10043483 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-05-07"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerIbuprofen;
+  wu:reportInvolvesPatient wu:patient_for_report_10043483 .
+
+wu:report_10018114 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-18"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerDiclofenac;
+  wu:reportInvolvesPatient wu:patient_for_report_10018114 .
+
+wu:report_10039161 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-03-26"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerDiclofenac;
+  wu:reportInvolvesPatient wu:patient_for_report_10039161 .
+
+wu:report_10049839 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-04-01"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerDiclofenac;
+  wu:reportInvolvesPatient wu:patient_for_report_10049839 .
+
+wu:report_10049840 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-04-01"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerDiclofenac;
+  wu:reportInvolvesPatient wu:patient_for_report_10049840 .
+
+wu:report_10057848 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-04-08"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerDiclofenac;
+  wu:reportInvolvesPatient wu:patient_for_report_10057848 .
+
+wu:report_10094645 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-04-22"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerDiclofenac;
+  wu:reportInvolvesPatient wu:patient_for_report_10094645 .
+
+wu:report_10136437 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-04-29"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerDiclofenac;
+  wu:reportInvolvesPatient wu:patient_for_report_10136437 .
+
+wu:report_10149229 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2016-11-22"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerDiclofenac;
+  wu:reportInvolvesPatient wu:patient_for_report_10149229 .
+
+wu:report_10149854 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2015-08-20"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerDiclofenac;
+  wu:reportInvolvesPatient wu:patient_for_report_10149854 .
+
+wu:report_10156492 a wu:AdverseEventReport;
+  wu:isFatal true;
+  wu:reportDate "2014-05-07"^^xsd:date;
+  wu:reportConcernsDrug wu:painkillerDiclofenac;
+  wu:reportInvolvesPatient wu:patient_for_report_10156492 .

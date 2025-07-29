@@ -368,7 +368,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/Drug">
         <rdfs:comment>Represents a painkiller medication.</rdfs:comment>
-        <rdfs:label>drug</rdfs:label>
+        <rdfs:label xml:lang="en">Drug</rdfs:label>
     </owl:Class>
     
 
@@ -377,7 +377,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/Patient">
         <rdfs:comment>Represents the person who used the drug and is the subject of a report.</rdfs:comment>
-        <rdfs:label>patient</rdfs:label>
+        <rdfs:label xml:lang="en">Patient</rdfs:label>
     </owl:Class>
     
 
@@ -386,7 +386,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/Region">
         <rdfs:comment>Represents a geographical location, such as a country.</rdfs:comment>
-        <rdfs:label>region</rdfs:label>
+        <rdfs:label xml:lang="en">Region</rdfs:label>
     </owl:Class>
     
 

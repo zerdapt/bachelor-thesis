@@ -1,0 +1,53 @@
+@base <http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/> .
+@prefix wu: <http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# --- Regulatory Status Individuals ---
+wu:status_OTC a wu:RegulatoryStatus; rdfs:label "Over-the-Counter"@en .
+wu:status_Prescription a wu:RegulatoryStatus; rdfs:label "Prescription"@en .
+wu:status_NotApproved a wu:RegulatoryStatus; rdfs:label "Not Approved in US"@en .
+
+
+# --- Drug Individuals with Links to Statuses ---
+wu:painkillerParacetamol a wu:Drug;
+  wu:totalReportCount 88881;
+  wu:seriousReportCount 87088;
+  wu:fatalReportCount 11908;
+  rdfs:label "Paracetamol"@en;
+  wu:drugHasRegulatoryStatus wu:status_OTC .
+
+wu:painkillerDipyrone a wu:Drug;
+  wu:totalReportCount 3051;
+  wu:seriousReportCount 2989;
+  wu:fatalReportCount 530;
+  rdfs:label "Dipyrone"@en;
+  wu:drugHasRegulatoryStatus wu:status_NotApproved .
+
+wu:painkillerAspirin a wu:Drug;
+  wu:totalReportCount 282174;
+  wu:seriousReportCount 205775;
+  wu:fatalReportCount 26425;
+  rdfs:label "Aspirin"@en;
+  wu:drugHasRegulatoryStatus wu:status_OTC .
+
+wu:painkillerNaproxen a wu:Drug;
+  wu:totalReportCount 35881;
+  wu:seriousReportCount 29472;
+  wu:fatalReportCount 4288;
+  rdfs:label "Naproxen"@en;
+  wu:drugHasRegulatoryStatus wu:status_Prescription .
+
+wu:painkillerIbuprofen a wu:Drug;
+  wu:totalReportCount 91169;
+  wu:seriousReportCount 68995;
+  wu:fatalReportCount 8467;
+  rdfs:label "Ibuprofen"@en;
+  wu:drugHasRegulatoryStatus wu:status_OTC .
+
+wu:painkillerDiclofenac a wu:Drug;
+  wu:totalReportCount 48880;
+  wu:seriousReportCount 40522;
+  wu:fatalReportCount 4832;
+  rdfs:label "Diclofenac"@en;
+  wu:drugHasRegulatoryStatus wu:status_OTC .
