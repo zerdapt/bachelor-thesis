@@ -171,7 +171,6 @@
     <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/reportConcernsDrug -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/reportConcernsDrug">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/AdverseEventReport"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/Drug"/>
         <rdfs:comment>The inverse of drugIsSubjectOfReport.</rdfs:comment>
@@ -224,7 +223,12 @@
         <rdfs:label>wasUsedByPatient</rdfs:label>
     </owl:ObjectProperty>
     
-
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/hasGeoAnalysis">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/Drug"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/GeoAnalysis"/>
+        <rdfs:comment>Links a drug to its geographic analysis data.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasGeoAnalysis</rdfs:label>
+    </owl:ObjectProperty>
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -344,6 +348,71 @@
     
 
 
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/reportCountryCode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/reportCountryCode">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/AdverseEventReport"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>The country code where the adverse event report originated.</rdfs:comment>
+        <rdfs:label xml:lang="en">reportCountryCode</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/fatalReportPercentage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/fatalReportPercentage">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/Drug"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment>The calculated percentage of fatal reports for this drug.</rdfs:comment>
+        <rdfs:label xml:lang="en">fatalReportPercentage</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/geoInCountry -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/geoInCountry">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/GeoAnalysis"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/geoReportCount -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/geoReportCount">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/GeoAnalysis"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/geoAveragePatientAge -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/geoAveragePatientAge">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/GeoAnalysis"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/geoCountryContributionPercentage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/geoCountryContributionPercentage">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/GeoAnalysis"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/geoDistributedFatalPercentage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/geoDistributedFatalPercentage">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/GeoAnalysis"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -359,7 +428,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/AdverseEventReport">
         <rdfs:comment>Represents a single, individual adverse event report.</rdfs:comment>
-        <rdfs:label>adverseEventReport</rdfs:label>
+        <rdfs:label xml:lang="en">AdverseEventReport</rdfs:label>
     </owl:Class>
     
 
@@ -395,17 +464,23 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/RegulatoryStatus">
         <rdfs:comment>Represents the marketing status of a drug (e.g., Prescription, Over-the-Counter).</rdfs:comment>
-        <rdfs:label>regulatoryStatus</rdfs:label>
+        <rdfs:label xml:lang="en">RegulatoryStatus</rdfs:label>
     </owl:Class>
-    
-
 
     <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/SideEffect -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/SideEffect">
         <rdfs:comment>Represents an adverse reaction to a drug.</rdfs:comment>
-        <rdfs:label>sideEffect</rdfs:label>
+        <rdfs:label xml:lang="en">SideEffect</rdfs:label>
     </owl:Class>
+
+    <!-- http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/GeoAnalysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/GeoAnalysis">
+        <rdfs:comment>A class to hold the results of a geographic analysis for a drug.</rdfs:comment>
+        <rdfs:label xml:lang="en">GeoAnalysis</rdfs:label>
+    </owl:Class>
+
 </rdf:RDF>
 
 
