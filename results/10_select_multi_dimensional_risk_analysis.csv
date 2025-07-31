@@ -1,0 +1,24 @@
+painkillerLabel,statusLabel,fatalPercentage,country,countryCount,avgAge,countryContributionPercentage,distributedFatalPercentage
+Aspirin,Over-the-Counter,9.36,US,8,74.0,80.0,7.49
+Aspirin,Over-the-Counter,9.36,TN,1,59.0,10.0,0.94
+Aspirin,Over-the-Counter,9.36,KR,1,65.0,10.0,0.94
+Diclofenac,Over-the-Counter,9.89,IN,3,26.0,30.0,2.97
+Diclofenac,Over-the-Counter,9.89,US,2,66.0,20.0,1.98
+Diclofenac,Over-the-Counter,9.89,GB,1,48.0,10.0,0.99
+Diclofenac,Over-the-Counter,9.89,BR,1,69.0,10.0,0.99
+Diclofenac,Over-the-Counter,9.89,NL,1,70.0,10.0,0.99
+Diclofenac,Over-the-Counter,9.89,HU,1,67.0,10.0,0.99
+Diclofenac,Over-the-Counter,9.89,CA,1,53.0,10.0,0.99
+Dipyrone,Not Approved in US,17.37,BR,6,58.0,60.0,10.42
+Dipyrone,Not Approved in US,17.37,DE,3,36.0,30.0,5.21
+Dipyrone,Not Approved in US,17.37,RS,1,12.0,10.0,1.74
+Ibuprofen,Over-the-Counter,9.29,US,5,48.0,50.0,4.65
+Ibuprofen,Over-the-Counter,9.29,GB,2,76.0,20.0,1.86
+Ibuprofen,Over-the-Counter,9.29,DE,2,62.0,20.0,1.86
+Ibuprofen,Over-the-Counter,9.29,SG,1,71.0,10.0,0.93
+Naproxen,Prescription,11.95,US,10,53.0,100.0,11.95
+Paracetamol,Over-the-Counter,13.4,GB,5,48.0,50.0,6.7
+Paracetamol,Over-the-Counter,13.4,FR,2,64.0,20.0,2.68
+Paracetamol,Over-the-Counter,13.4,KE,1,41.0,10.0,1.34
+Paracetamol,Over-the-Counter,13.4,CH,1,41.0,10.0,1.34
+Paracetamol,Over-the-Counter,13.4,US,1,55.0,10.0,1.34

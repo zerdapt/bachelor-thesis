@@ -1,0 +1,18 @@
+PREFIX wu: <http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?patientSex ?sideEffectLabel (COUNT(?report) AS ?occurrenceCount)
+WHERE {
+
+  ?drug a wu:Drug;
+        rdfs:label "Dipyrone"@en .
+
+  ?report wu:reportConcernsDrug ?drug .
+  ?report wu:reportInvolvesPatient ?patient .
+  ?patient wu:patientSex ?patientSex ;
+           wu:patientExperiencedSideEffect ?sideEffect .
+  ?sideEffect rdfs:label ?sideEffectLabel .
+}
+
+GROUP BY ?patientSex ?sideEffectLabel
+ORDER BY ?patientSex DESC(?occurrenceCount)

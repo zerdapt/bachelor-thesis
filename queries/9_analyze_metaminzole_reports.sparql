@@ -1,0 +1,13 @@
+PREFIX wu: <http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?patientAge ?countryCode
+WHERE {
+  ?drug a wu:Drug;
+        rdfs:label "Dipyrone"@en .
+  ?report wu:reportConcernsDrug ?drug .
+  ?report wu:reportCountryCode ?countryCode .
+  ?report wu:reportInvolvesPatient ?patient .
+  ?patient wu:patientAge ?patientAge .
+}
+ORDER BY ?countryCode ?patientAge

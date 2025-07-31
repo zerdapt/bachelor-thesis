@@ -1,0 +1,46 @@
+PREFIX wu: <http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT
+  ?painkillerLabel
+  ?statusLabel
+  ?fatalPercentage
+  ?country
+  ?countryCount
+  ?avgAge
+  ?countryContributionPercentage
+  ?distributedFatalPercentage
+WHERE {
+ 
+    {
+        SELECT ?drug ?country (COUNT(?report) AS ?countryCount) (ROUND(AVG(xsd:integer(?age))) AS ?avgAge)
+        WHERE {
+            ?report wu:reportConcernsDrug ?drug ;
+                    wu:reportCountryCode ?country ;
+                    wu:reportInvolvesPatient ?patient .
+            ?patient wu:patientAge ?age .
+        }
+        GROUP BY ?drug ?country
+    }
+
+   
+    {
+        SELECT ?drug (COUNT(?report) as ?totalFatalForDrug)
+        WHERE {
+            ?report wu:reportConcernsDrug ?drug .
+        }
+        GROUP BY ?drug
+    }
+
+    
+    ?drug rdfs:label ?painkillerLabel ;
+          wu:fatalReportPercentage ?fatalPercentage ;
+          wu:drugHasRegulatoryStatus ?statusNode .
+    ?statusNode rdfs:label ?statusLabel .
+
+  
+    BIND(ROUND((?countryCount / ?totalFatalForDrug) * 100) AS ?countryContributionPercentage)
+    BIND(ROUND((?fatalPercentage * ?countryContributionPercentage / 100.0) * 100) / 100.0 AS ?distributedFatalPercentage)
+}
+ORDER BY ?painkillerLabel DESC(?countryContributionPercentage)

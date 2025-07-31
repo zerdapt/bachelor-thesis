@@ -1,0 +1,14 @@
+PREFIX wu: <http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?sideEffectLabel (ROUND(AVG(xsd:integer(?age))) AS ?averagePatientAge) (COUNT(?patient) AS ?patientCount)
+WHERE {
+  ?patient a wu:Patient ;
+           wu:patientAge ?age ;
+           wu:patientExperiencedSideEffect ?sideEffect .
+  ?sideEffect rdfs:label ?sideEffectLabel .
+}
+GROUP BY ?sideEffectLabel
+HAVING (COUNT(?patient) > 1)
+ORDER BY DESC(?averagePatientAge)

@@ -1,0 +1,17 @@
+PREFIX wu: <http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?painkillerLabel (COUNT(?patient) AS ?patientCount) (ROUND(AVG(?age)) AS ?avgAge)
+WHERE {
+  
+  ?sideEffect rdfs:label "Cerebral haemorrhage"@en .
+  ?patient wu:patientExperiencedSideEffect ?sideEffect ;
+           wu:patientAge ?age .
+
+ 
+  ?report wu:reportInvolvesPatient ?patient .
+  ?report wu:reportConcernsDrug ?drug .
+  ?drug rdfs:label ?painkillerLabel .
+}
+GROUP BY ?painkillerLabel
+ORDER BY DESC(?patientCount)

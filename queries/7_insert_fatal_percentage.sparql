@@ -1,0 +1,13 @@
+PREFIX wu: <http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+INSERT {
+  ?drug wu:fatalReportPercentage ?fatalPercentage .
+}
+WHERE {
+  ?drug a wu:Drug ;
+        wu:totalReportCount ?total ;
+        wu:fatalReportCount ?fatal .
+  FILTER(?total > 0)
+  BIND (ROUND(((?fatal / ?total) * 100) * 100) / 100.0 AS ?fatalPercentage)
+}

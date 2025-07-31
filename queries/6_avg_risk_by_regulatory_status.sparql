@@ -1,0 +1,13 @@
+PREFIX wu: <http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?statusLabel (AVG(?fatalPercentage) AS ?averageFatalPercentage)
+WHERE {
+  ?drug a wu:Drug ;
+        wu:fatalReportPercentage ?fatalPercentage ;
+        wu:drugHasRegulatoryStatus ?statusNode .
+  
+  ?statusNode rdfs:label ?statusLabel .
+}
+GROUP BY ?statusLabel
+ORDER BY DESC(?averageFatalPercentage)

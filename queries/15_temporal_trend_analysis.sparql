@@ -1,0 +1,15 @@
+PREFIX wu: <http://www.semanticweb.org/zerda/ontologies/2025/6/ontology_painkiller/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?year (COUNT(?report) AS ?reportCount) ?painkillerLabel
+WHERE {
+  ?drug a wu:Drug;
+        rdfs:label ?painkillerLabel .
+  ?report wu:reportConcernsDrug ?drug ;
+          wu:reportDate ?date .
+
+  BIND(YEAR(?date) AS ?year)
+}
+GROUP BY ?year ?painkillerLabel
+ORDER BY ?year ?painkillerLabel

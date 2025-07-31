@@ -1,0 +1,24 @@
+painkillerLabel,occurrenceCount,sideEffectLabel
+Aspirin,2,Death
+Aspirin,2,Cerebral haemorrhage
+Diclofenac,3,Sepsis
+Diclofenac,3,Hyperkalaemia
+Diclofenac,3,Lactic acidosis
+Diclofenac,3,Metabolic acidosis
+Diclofenac,3,Ventricular fibrillation
+Diclofenac,3,Coagulopathy
+Diclofenac,3,Thrombocytopenia
+Diclofenac,3,Drug dependence
+Diclofenac,2,Septic shock
+Diclofenac,2,Drug abuse
+Diclofenac,2,Respiratory failure
+Diclofenac,2,Musculoskeletal pain
+Dipyrone,3,Cardiac arrest
+Dipyrone,2,Respiratory failure
+Dipyrone,2,Hepatic failure
+Dipyrone,2,Metastases to lung
+Ibuprofen,2,Renal failure acute
+Ibuprofen,2,Toxicity to various agents
+Naproxen,9,Toxicity to various agents
+Paracetamol,2,Pulmonary haemorrhage
+Paracetamol,2,Haemorrhagic erosive gastritis

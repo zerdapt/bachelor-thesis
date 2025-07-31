@@ -1,0 +1,37 @@
+sideEffectLabel,averagePatientAge,patientCount
+Cerebral haemorrhage,86.0,2
+Metastases to lung,79.0,2
+Loss of consciousness,76.0,2
+Pyrexia,73.0,2
+Renal impairment,72.0,2
+Blood pressure decreased,70.0,2
+Musculoskeletal pain,69.0,2
+Diarrhoea,67.0,2
+Respiratory arrest,67.0,2
+Fatigue,66.0,3
+Malaise,65.0,2
+Dyspnoea,64.0,3
+Cardiac arrest,62.0,6
+Asthenia,62.0,2
+Respiratory failure,61.0,6
+Renal failure acute,61.0,2
+Death,60.0,6
+Infection,59.0,2
+Staphylococcal infection,52.0,2
+Muscular weakness,48.0,2
+Septic shock,48.0,2
+Toxicity to various agents,47.0,11
+Hepatic failure,45.0,4
+Drug abuse,40.0,4
+Drug-induced liver injury,38.0,2
+Ejection fraction decreased,38.0,2
+Sepsis,30.0,5
+Hyperkalaemia,26.0,3
+Lactic acidosis,26.0,3
+Metabolic acidosis,26.0,3
+Ventricular fibrillation,26.0,3
+Coagulopathy,26.0,3
+Thrombocytopenia,26.0,3
+Drug dependence,26.0,3
+Pulmonary haemorrhage,13.0,2
+Haemorrhagic erosive gastritis,13.0,2
