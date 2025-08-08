@@ -1,1 +1,38 @@
+# --- OS files ---
 .DS_Store
+Thumbs.db
+
+# --- Python virtual environments ---
+venv/
+.env/
+.venv/
+env/
+
+# --- Python bytecode / cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Python build / packaging ---
+build/
+dist/
+*.egg-info/
+
+# --- LaTeX build files ---
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+_build/
+build/
+
+# --- PDFs ---
+*.pdf
