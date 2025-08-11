@@ -14,8 +14,9 @@ For the technical part, a Python script was created to extract real-world data a
 - [x] Validated the ontology for logical consistency, updating the [new OWL file](./data/ontology/ontology_painkiller_after_oops.rdfdata/)
 - [x] Mapped the [clean CSV data](./data/processed/) to three [RDF turle files](./data/mapped/) using Ontotext Refine
 - [x] Populated a GraphDB triple store and visualized the [final class hierarchy](./data/ontology/class-hierarchy-thesis-final.svg)
-- [x] [Visualization](./data/ontology/ontology_visualization.svg) through WebVOWL of the new ontology schema 
-- [x] [SPARQL queries](./queries/) in order to test the applicability and also look at the [results](./results/) as CSV files. 
+- [x] [Visualization](./data/ontology/ontology_visualization.svg) through WebVOWL of the new ontology schema
+- [x] [SPARQL queries](./queries/) in order to test the applicability and also look at the [results](./results/) as CSV files 
+- [x] Passed test on running the repo on a different machine (Ubuntu Linux)
 
 
 #### Software
